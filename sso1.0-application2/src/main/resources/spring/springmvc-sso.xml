@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+   
+    <!-- sso过滤器让spring容器管理 -->
+    <bean id="validateLoginFilter" class="com.helon.application2.filter.Client2ValidateFilter" init-method="init"></bean>
+    <!-- sso回写cookie的filter -->
+    <bean id="ssoMiddleFilter" class="com.helon.sso.client.filters.SsoMiddleFilter"></bean>
+    <!-- sso登出处理器 -->
+    <bean id="ssoLogoutFilter" class="com.helon.sso.client.filters.SsoLogoutFilter"></bean>
+    <!-- sso登录按钮处理器 -->
+    <bean id="ssoLoginFilter" class="com.helon.sso.client.filters.SsoLoginFilter"></bean>
+</beans>        

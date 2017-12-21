@@ -1,0 +1,1242 @@
+2017-11-19 22:08:33,946 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-11-19 22:08:33,948 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-11-19 22:08:33,961 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-11-19 22:08:33,962 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-11-19 22:08:33,963 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-11-19 22:08:33,964 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-11-19 22:08:33,967 - Initializing filter 'CharacterEncodingFilter'
+2017-11-19 22:08:34,111 - Filter 'CharacterEncodingFilter' configured successfully
+2017-11-19 22:08:34,137 - Initializing servlet 'sso1.0-web'
+2017-11-19 22:08:34,140 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2017-11-19 22:08:34,141 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2017-11-19 22:08:34,141 - Adding [jndiProperties] PropertySource with lowest search precedence
+2017-11-19 22:08:34,141 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-11-19 22:08:34,141 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-11-19 22:08:34,142 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2017-11-19 22:08:34,183 - FrameworkServlet 'sso1.0-web': initialization started
+2017-11-19 22:08:34,193 - Servlet with name 'sso1.0-web' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [null]
+2017-11-19 22:08:34,231 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2017-11-19 22:08:34,232 - Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+2017-11-19 22:08:34,232 - Refreshing WebApplicationContext for namespace 'sso1.0-web-servlet': startup date [Sun Nov 19 22:08:34 CST 2017]; root of context hierarchy
+2017-11-19 22:08:34,298 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-11-19 22:08:34,298 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-11-19 22:08:34,299 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-11-19 22:08:34,318 - Loading XML bean definitions from class path resource [spring/springmvc-servlet.xml]
+2017-11-19 22:08:34,325 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-11-19 22:08:34,371 - Loading schema mappings from [META-INF/spring.schemas]
+2017-11-19 22:08:34,374 - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-4.2.xsd=org/springframework/jms/config/spring-jms-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-4.1.xsd=org/springframework/jms/config/spring-jms-4.1.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms-4.0.xsd=org/springframework/jms/config/spring-jms-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+2017-11-19 22:08:34,375 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+2017-11-19 22:08:34,416 - Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-4.2.xsd
+2017-11-19 22:08:34,428 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.2.xsd
+2017-11-19 22:08:34,445 - Found XML schema [http://www.springframework.org/schema/context/spring-context-4.2.xsd] in classpath: org/springframework/context/config/spring-context-4.2.xsd
+2017-11-19 22:08:34,451 - Found XML schema [http://code.alibabatech.com/schema/dubbo/dubbo.xsd] in classpath: META-INF/dubbo.xsd
+2017-11-19 22:08:34,479 - Loading bean definitions
+2017-11-19 22:08:34,501 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-11-19 22:08:34,644 - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+2017-11-19 22:08:34,669 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-11-19 22:08:34,669 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-11-19 22:08:34,669 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-11-19 22:08:34,680 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2017-11-19 22:08:34,682 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2017-11-19 22:08:34,690 - Looking for matching resources in directory tree [D:\work\eclipse4.4_workspace_final_test\sso1.0-web\target\classes\com\helon\sso\controller]
+2017-11-19 22:08:34,691 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-web\target\classes\com\helon\sso\controller] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-web/target/classes/com/helon/sso/controller/**/*.class]
+2017-11-19 22:08:34,697 - Resolved location pattern [classpath*:com/helon/sso/controller/**/*.class] to resources [file [D:\work\eclipse4.4_workspace_final_test\sso1.0-web\target\classes\com\helon\sso\controller\UserController.class]]
+2017-11-19 22:08:34,768 - Identified candidate component class: file [D:\work\eclipse4.4_workspace_final_test\sso1.0-web\target\classes\com\helon\sso\controller\UserController.class]
+2017-11-19 22:08:34,825 - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2017-11-19 22:08:34,885 - Loaded 24 bean definitions from location pattern [classpath:spring/springmvc-servlet.xml]
+2017-11-19 22:08:34,886 - Bean factory for WebApplicationContext for namespace 'sso1.0-web-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@9284a3: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.view.InternalResourceViewResolver#0,userController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,sso1.0-server,com.alibaba.dubbo.config.RegistryConfig,userServiceImpl]; root of factory hierarchy
+2017-11-19 22:08:34,909 - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@19f50fb]
+2017-11-19 22:08:34,910 - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@1a9762d]
+2017-11-19 22:08:34,911 - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@ae0ddd]
+2017-11-19 22:08:34,912 - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@a7c7c6]
+2017-11-19 22:08:34,953 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-11-19 22:08:34,953 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-11-19 22:08:34,974 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-11-19 22:08:34,978 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-11-19 22:08:35,126 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-11-19 22:08:35,126 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-11-19 22:08:35,129 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-19 22:08:35,130 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-11-19 22:08:35,131 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-11-19 22:08:35,131 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-11-19 22:08:35,131 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-11-19 22:08:35,132 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-11-19 22:08:35,133 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-11-19 22:08:35,133 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-11-19 22:08:35,133 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-11-19 22:08:35,136 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-11-19 22:08:35,136 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-11-19 22:08:35,136 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-11-19 22:08:35,136 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-11-19 22:08:35,137 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-11-19 22:08:35,137 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-11-19 22:08:35,137 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-11-19 22:08:35,137 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-11-19 22:08:35,137 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-11-19 22:08:35,138 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-11-19 22:08:35,144 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@200911]
+2017-11-19 22:08:35,148 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@25c708]
+2017-11-19 22:08:35,154 - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@1499049]
+2017-11-19 22:08:35,157 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9284a3: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping,mvcCorsConfigurations,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.view.InternalResourceViewResolver#0,userController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,sso1.0-server,com.alibaba.dubbo.config.RegistryConfig,userServiceImpl,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2017-11-19 22:08:35,157 - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2017-11-19 22:08:35,157 - Creating instance of bean 'mvcContentNegotiationManager'
+2017-11-19 22:08:35,171 - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2017-11-19 22:08:35,218 - Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+2017-11-19 22:08:35,223 - Finished creating instance of bean 'mvcContentNegotiationManager'
+2017-11-19 22:08:35,224 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2017-11-19 22:08:35,225 - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2017-11-19 22:08:35,248 - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' to allow for resolving potential circular references
+2017-11-19 22:08:35,293 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-11-19 22:08:35,295 - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+2017-11-19 22:08:35,295 - Creating instance of bean 'mvcCorsConfigurations'
+2017-11-19 22:08:35,299 - Eagerly caching bean 'mvcCorsConfigurations' to allow for resolving potential circular references
+2017-11-19 22:08:35,318 - Finished creating instance of bean 'mvcCorsConfigurations'
+2017-11-19 22:08:35,321 - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-11-19 22:08:35,321 - Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-11-19 22:08:35,326 - Creating instance of bean '(inner bean)#8ded27'
+2017-11-19 22:08:35,326 - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:35,327 - Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:35,327 - Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+2017-11-19 22:08:35,337 - Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:35,525 - Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:35,590 - Finished creating instance of bean '(inner bean)#8ded27'
+2017-11-19 22:08:35,612 - No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+2017-11-19 22:08:35,613 - Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+2017-11-19 22:08:35,620 - Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-11-19 22:08:35,621 - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2017-11-19 22:08:35,621 - Looking for request mappings in application context: WebApplicationContext for namespace 'sso1.0-web-servlet': startup date [Sun Nov 19 22:08:34 CST 2017]; root of context hierarchy
+2017-11-19 22:08:35,688 -  [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Protocol$Adpative implements com.alibaba.dubbo.rpc.Protocol {
+public void destroy() {throw new UnsupportedOperationException("method public abstract void com.alibaba.dubbo.rpc.Protocol.destroy() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public int getDefaultPort() {throw new UnsupportedOperationException("method public abstract int com.alibaba.dubbo.rpc.Protocol.getDefaultPort() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public com.alibaba.dubbo.rpc.Exporter export(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.export(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker refer(java.lang.Class arg0, com.alibaba.dubbo.common.URL arg1) throws java.lang.Class {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.refer(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:35,890 -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Cluster$Adpative implements com.alibaba.dubbo.rpc.cluster.Cluster {
+public com.alibaba.dubbo.rpc.Invoker join(com.alibaba.dubbo.rpc.cluster.Directory arg0) throws com.alibaba.dubbo.rpc.cluster.Directory {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("cluster", "failover");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.Cluster) name from url(" + url.toString() + ") use keys([cluster])");
+com.alibaba.dubbo.rpc.cluster.Cluster extension = (com.alibaba.dubbo.rpc.cluster.Cluster)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.Cluster.class).getExtension(extName);
+return extension.join(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:35,915 -  [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ProxyFactory$Adpative implements com.alibaba.dubbo.rpc.ProxyFactory {
+public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getProxy(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, com.alibaba.dubbo.common.URL arg2) throws java.lang.Object {
+if (arg2 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg2;
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getInvoker(arg0, arg1, arg2);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:35,931 - Creating shared instance of singleton bean 'userServiceImpl'
+2017-11-19 22:08:35,931 - Creating instance of bean 'userServiceImpl'
+2017-11-19 22:08:35,938 - Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+2017-11-19 22:08:35,998 - Invoking afterPropertiesSet() on bean with name 'userServiceImpl'
+2017-11-19 22:08:36,000 - Creating shared instance of singleton bean 'sso1.0-server'
+2017-11-19 22:08:36,000 - Creating instance of bean 'sso1.0-server'
+2017-11-19 22:08:36,002 - Eagerly caching bean 'sso1.0-server' to allow for resolving potential circular references
+2017-11-19 22:08:36,016 - Finished creating instance of bean 'sso1.0-server'
+2017-11-19 22:08:36,017 - Creating shared instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-11-19 22:08:36,018 - Creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-11-19 22:08:36,020 - Eagerly caching bean 'com.alibaba.dubbo.config.RegistryConfig' to allow for resolving potential circular references
+2017-11-19 22:08:36,032 - Finished creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-11-19 22:08:36,032 - Finished creating instance of bean 'userServiceImpl'
+2017-11-19 22:08:36,067 - 1 request handler methods found on class com.helon.sso.controller.UserController: {public com.helon.sso.pojo.TUserinfo com.helon.sso.controller.UserController.getUserById(java.lang.Long)={[/user/{userId}]}}
+2017-11-19 22:08:36,068 - Mapped "{[/user/{userId}]}" onto public com.helon.sso.pojo.TUserinfo com.helon.sso.controller.UserController.getUserById(java.lang.Long)
+2017-11-19 22:08:36,070 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2017-11-19 22:08:36,071 - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+2017-11-19 22:08:36,071 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:36,071 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2017-11-19 22:08:36,071 - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2017-11-19 22:08:36,553 - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' to allow for resolving potential circular references
+2017-11-19 22:08:36,590 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-11-19 22:08:36,591 - Creating instance of bean '(inner bean)#de097e'
+2017-11-19 22:08:36,604 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:36,607 - Finished creating instance of bean '(inner bean)#de097e'
+2017-11-19 22:08:36,610 - Creating instance of bean '(inner bean)#1ac651d'
+2017-11-19 22:08:36,633 - Finished creating instance of bean '(inner bean)#1ac651d'
+2017-11-19 22:08:36,634 - Creating instance of bean '(inner bean)#66b011'
+2017-11-19 22:08:36,647 - Finished creating instance of bean '(inner bean)#66b011'
+2017-11-19 22:08:36,648 - Creating instance of bean '(inner bean)#e245bb'
+2017-11-19 22:08:36,658 - Finished creating instance of bean '(inner bean)#e245bb'
+2017-11-19 22:08:36,658 - Creating instance of bean '(inner bean)#14001d3'
+2017-11-19 22:08:36,668 - Finished creating instance of bean '(inner bean)#14001d3'
+2017-11-19 22:08:36,668 - Creating instance of bean '(inner bean)#bdebda'
+2017-11-19 22:08:36,712 - Finished creating instance of bean '(inner bean)#bdebda'
+2017-11-19 22:08:36,714 - Creating instance of bean '(inner bean)#baa05e'
+2017-11-19 22:08:36,743 - Finished creating instance of bean '(inner bean)#baa05e'
+2017-11-19 22:08:36,743 - Creating instance of bean '(inner bean)#4c6d3f'
+2017-11-19 22:08:36,745 - Creating instance of bean '(inner bean)#10955e7'
+2017-11-19 22:08:36,773 - Invoking afterPropertiesSet() on bean with name '(inner bean)#10955e7'
+2017-11-19 22:08:36,816 - Finished creating instance of bean '(inner bean)#10955e7'
+2017-11-19 22:08:36,864 - Finished creating instance of bean '(inner bean)#4c6d3f'
+2017-11-19 22:08:36,869 - Creating instance of bean '(inner bean)#d745db'
+2017-11-19 22:08:36,899 - Finished creating instance of bean '(inner bean)#d745db'
+2017-11-19 22:08:36,899 - Creating instance of bean '(inner bean)#1fe4758'
+2017-11-19 22:08:36,917 - Finished creating instance of bean '(inner bean)#1fe4758'
+2017-11-19 22:08:36,920 - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2017-11-19 22:08:36,921 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'sso1.0-web-servlet': startup date [Sun Nov 19 22:08:34 CST 2017]; root of context hierarchy
+2017-11-19 22:08:36,983 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2017-11-19 22:08:36,983 - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2017-11-19 22:08:36,983 - Creating instance of bean 'mvcUriComponentsContributor'
+2017-11-19 22:08:36,984 - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+2017-11-19 22:08:37,023 - Creating instance of bean '(inner bean)#88fd22'
+2017-11-19 22:08:37,040 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-11-19 22:08:37,041 - Creating instance of bean '(inner bean)#de097e#1'
+2017-11-19 22:08:37,041 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:37,042 - Finished creating instance of bean '(inner bean)#de097e#1'
+2017-11-19 22:08:37,042 - Creating instance of bean '(inner bean)#1ac651d#1'
+2017-11-19 22:08:37,044 - Finished creating instance of bean '(inner bean)#1ac651d#1'
+2017-11-19 22:08:37,044 - Creating instance of bean '(inner bean)#66b011#1'
+2017-11-19 22:08:37,046 - Finished creating instance of bean '(inner bean)#66b011#1'
+2017-11-19 22:08:37,047 - Creating instance of bean '(inner bean)#e245bb#1'
+2017-11-19 22:08:37,047 - Finished creating instance of bean '(inner bean)#e245bb#1'
+2017-11-19 22:08:37,048 - Creating instance of bean '(inner bean)#14001d3#1'
+2017-11-19 22:08:37,049 - Finished creating instance of bean '(inner bean)#14001d3#1'
+2017-11-19 22:08:37,049 - Creating instance of bean '(inner bean)#bdebda#1'
+2017-11-19 22:08:37,064 - Finished creating instance of bean '(inner bean)#bdebda#1'
+2017-11-19 22:08:37,064 - Creating instance of bean '(inner bean)#baa05e#1'
+2017-11-19 22:08:37,065 - Finished creating instance of bean '(inner bean)#baa05e#1'
+2017-11-19 22:08:37,066 - Creating instance of bean '(inner bean)#4c6d3f#1'
+2017-11-19 22:08:37,066 - Creating instance of bean '(inner bean)#10955e7#1'
+2017-11-19 22:08:37,066 - Invoking afterPropertiesSet() on bean with name '(inner bean)#10955e7#1'
+2017-11-19 22:08:37,081 - Finished creating instance of bean '(inner bean)#10955e7#1'
+2017-11-19 22:08:37,083 - Finished creating instance of bean '(inner bean)#4c6d3f#1'
+2017-11-19 22:08:37,083 - Creating instance of bean '(inner bean)#d745db#1'
+2017-11-19 22:08:37,083 - Finished creating instance of bean '(inner bean)#d745db#1'
+2017-11-19 22:08:37,084 - Creating instance of bean '(inner bean)#1fe4758#1'
+2017-11-19 22:08:37,084 - Finished creating instance of bean '(inner bean)#1fe4758#1'
+2017-11-19 22:08:37,085 - Invoking afterPropertiesSet() on bean with name '(inner bean)#88fd22'
+2017-11-19 22:08:37,085 - Looking for @ControllerAdvice: WebApplicationContext for namespace 'sso1.0-web-servlet': startup date [Sun Nov 19 22:08:34 CST 2017]; root of context hierarchy
+2017-11-19 22:08:37,086 - Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
+2017-11-19 22:08:37,088 - Finished creating instance of bean '(inner bean)#88fd22'
+2017-11-19 22:08:37,088 - Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2017-11-19 22:08:37,089 - Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+2017-11-19 22:08:37,089 - Finished creating instance of bean 'mvcUriComponentsContributor'
+2017-11-19 22:08:37,089 - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-11-19 22:08:37,090 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-11-19 22:08:37,091 - Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-11-19 22:08:37,106 - Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+2017-11-19 22:08:37,131 - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2017-11-19 22:08:37,131 - Creating instance of bean '(inner bean)#1ac651d#2'
+2017-11-19 22:08:37,132 - Finished creating instance of bean '(inner bean)#1ac651d#2'
+2017-11-19 22:08:37,132 - Creating instance of bean '(inner bean)#66b011#2'
+2017-11-19 22:08:37,133 - Finished creating instance of bean '(inner bean)#66b011#2'
+2017-11-19 22:08:37,133 - Creating instance of bean '(inner bean)#e245bb#2'
+2017-11-19 22:08:37,134 - Finished creating instance of bean '(inner bean)#e245bb#2'
+2017-11-19 22:08:37,134 - Creating instance of bean '(inner bean)#14001d3#2'
+2017-11-19 22:08:37,135 - Finished creating instance of bean '(inner bean)#14001d3#2'
+2017-11-19 22:08:37,136 - Creating instance of bean '(inner bean)#bdebda#2'
+2017-11-19 22:08:37,151 - Finished creating instance of bean '(inner bean)#bdebda#2'
+2017-11-19 22:08:37,151 - Creating instance of bean '(inner bean)#baa05e#2'
+2017-11-19 22:08:37,152 - Finished creating instance of bean '(inner bean)#baa05e#2'
+2017-11-19 22:08:37,152 - Creating instance of bean '(inner bean)#4c6d3f#2'
+2017-11-19 22:08:37,152 - Creating instance of bean '(inner bean)#10955e7#2'
+2017-11-19 22:08:37,154 - Invoking afterPropertiesSet() on bean with name '(inner bean)#10955e7#2'
+2017-11-19 22:08:37,170 - Finished creating instance of bean '(inner bean)#10955e7#2'
+2017-11-19 22:08:37,172 - Finished creating instance of bean '(inner bean)#4c6d3f#2'
+2017-11-19 22:08:37,172 - Creating instance of bean '(inner bean)#14fad9b'
+2017-11-19 22:08:37,174 - Finished creating instance of bean '(inner bean)#14fad9b'
+2017-11-19 22:08:37,175 - Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-11-19 22:08:37,175 - Looking for exception mappings: WebApplicationContext for namespace 'sso1.0-web-servlet': startup date [Sun Nov 19 22:08:34 CST 2017]; root of context hierarchy
+2017-11-19 22:08:37,178 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-11-19 22:08:37,178 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-11-19 22:08:37,178 - Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-11-19 22:08:37,179 - Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+2017-11-19 22:08:37,187 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-11-19 22:08:37,188 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-11-19 22:08:37,188 - Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-11-19 22:08:37,188 - Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+2017-11-19 22:08:37,199 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-11-19 22:08:37,200 - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-11-19 22:08:37,200 - Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-11-19 22:08:37,201 - Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+2017-11-19 22:08:37,229 - Returning cached instance of singleton bean 'mvcCorsConfigurations'
+2017-11-19 22:08:37,229 - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2017-11-19 22:08:37,230 - Looking for URL mappings in application context: WebApplicationContext for namespace 'sso1.0-web-servlet': startup date [Sun Nov 19 22:08:34 CST 2017]; root of context hierarchy
+2017-11-19 22:08:37,230 - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2017-11-19 22:08:37,230 - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': no URL paths identified
+2017-11-19 22:08:37,230 - Rejected bean name 'mvcCorsConfigurations': no URL paths identified
+2017-11-19 22:08:37,230 - Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+2017-11-19 22:08:37,231 - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter': no URL paths identified
+2017-11-19 22:08:37,231 - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2017-11-19 22:08:37,231 - Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+2017-11-19 22:08:37,231 - Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+2017-11-19 22:08:37,231 - Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+2017-11-19 22:08:37,231 - Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+2017-11-19 22:08:37,231 - Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'org.springframework.web.servlet.view.InternalResourceViewResolver#0': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'userController': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2017-11-19 22:08:37,232 - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2017-11-19 22:08:37,233 - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'sso1.0-server': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'com.alibaba.dubbo.config.RegistryConfig': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'userServiceImpl': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'environment': no URL paths identified
+2017-11-19 22:08:37,234 - Rejected bean name 'systemProperties': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'systemEnvironment': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'servletContext': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'servletConfig': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'contextParameters': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'contextAttributes': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'messageSource': no URL paths identified
+2017-11-19 22:08:37,235 - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2017-11-19 22:08:37,236 - Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-11-19 22:08:37,236 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-11-19 22:08:37,236 - Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-11-19 22:08:37,236 - Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+2017-11-19 22:08:37,244 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-11-19 22:08:37,244 - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-11-19 22:08:37,244 - Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-11-19 22:08:37,245 - Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+2017-11-19 22:08:37,255 - Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-11-19 22:08:37,256 - Creating shared instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-11-19 22:08:37,256 - Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-11-19 22:08:37,268 - Eagerly caching bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0' to allow for resolving potential circular references
+2017-11-19 22:08:37,298 - Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-11-19 22:08:37,298 - Creating shared instance of singleton bean 'userController'
+2017-11-19 22:08:37,298 - Creating instance of bean 'userController'
+2017-11-19 22:08:37,304 - Registered injected element on class [com.helon.sso.controller.UserController]: AutowiredFieldElement for private com.helon.sso.service.UserService com.helon.sso.controller.UserController.userServiceImpl
+2017-11-19 22:08:37,304 - Eagerly caching bean 'userController' to allow for resolving potential circular references
+2017-11-19 22:08:37,312 - Processing injected element of bean 'userController': AutowiredFieldElement for private com.helon.sso.service.UserService com.helon.sso.controller.UserController.userServiceImpl
+2017-11-19 22:08:37,318 - Returning cached instance of singleton bean 'userServiceImpl'
+2017-11-19 22:08:37,394 -  [DUBBO] package com.alibaba.dubbo.registry;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RegistryFactory$Adpative implements com.alibaba.dubbo.registry.RegistryFactory {
+public com.alibaba.dubbo.registry.Registry getRegistry(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.registry.RegistryFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.registry.RegistryFactory extension = (com.alibaba.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.registry.RegistryFactory.class).getExtension(extName);
+return extension.getRegistry(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:37,416 -  [DUBBO] package com.alibaba.dubbo.remoting.zookeeper;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ZookeeperTransporter$Adpative implements com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter {
+public com.alibaba.dubbo.remoting.zookeeper.ZookeeperClient connect(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "zkclient"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter extension = (com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter.class).getExtension(extName);
+return extension.connect(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:37,443 -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-47.93.195.131.cache, data: {com.helon.sso.service.UserService=empty://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&category=configurators&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=123524&retries=0&side=provider&timeout=30000&timestamp=1511100475208}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:37,471 - Creating new ZookKeeper instance to connect to 47.93.195.131:2181.
+2017-11-19 22:08:37,472 - Starting ZkClient event thread.
+2017-11-19 22:08:37,520 - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2017-11-19 22:08:37,521 - Client environment:host.name=USER-20150622LD
+2017-11-19 22:08:37,521 - Client environment:java.version=1.8.0_40-ea
+2017-11-19 22:08:37,521 - Client environment:java.vendor=Oracle Corporation
+2017-11-19 22:08:37,521 - Client environment:java.home=C:\jdk1.8.0_40\jre
+2017-11-19 22:08:37,521 - Client environment:java.class.path=D:\work\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar
+2017-11-19 22:08:37,521 - Client environment:java.library.path=C:\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/jdk1.8.0_40/bin/../jre/bin/client;C:/jdk1.8.0_40/bin/../jre/bin;C:/jdk1.8.0_40/bin/../jre/lib/i386;D:\work\oracle11g_client32;D:\app\Administrator\product\11.2.0\client_1;C:\jdk1.8.0_40\bin;C:\jdk1.8.0_40\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\work\mysql5.6.24win32\bin;D:\software install\TortoiseSVN\bin;D:\work\apache-maven-3.3.9\bin;D:\work\play-1.2.7;D:\software install\Git\cmd;D:\software install\nodejs\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;D:\work\eclipse-jee4.4-final;;.
+2017-11-19 22:08:37,521 - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2017-11-19 22:08:37,521 - Client environment:java.compiler=<NA>
+2017-11-19 22:08:37,522 - Client environment:os.name=Windows 8.1
+2017-11-19 22:08:37,522 - Client environment:os.arch=x86
+2017-11-19 22:08:37,522 - Client environment:os.version=6.3
+2017-11-19 22:08:37,522 - Client environment:user.name=Administrator
+2017-11-19 22:08:37,522 - Client environment:user.home=C:\Users\Administrator
+2017-11-19 22:08:37,522 - Client environment:user.dir=D:\work\eclipse4.4_workspace_final_test\sso1.0-web
+2017-11-19 22:08:37,525 - Initiating client connection, connectString=47.93.195.131:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@29361b
+2017-11-19 22:08:37,536 - zookeeper.disableAutoWatchReset is false
+2017-11-19 22:08:37,575 - Awaiting connection to Zookeeper server
+2017-11-19 22:08:37,576 - Waiting for keeper state SyncConnected
+2017-11-19 22:08:37,590 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:08:37,597 - Socket connection established to 47.93.195.131/47.93.195.131:2181, initiating session
+2017-11-19 22:08:37,600 - Session establishment request sent on 47.93.195.131/47.93.195.131:2181
+2017-11-19 22:08:37,615 - Session establishment complete on server 47.93.195.131/47.93.195.131:2181, sessionid = 0x15fb025e2dc0010, negotiated timeout = 30000
+2017-11-19 22:08:37,618 - Received event: WatchedEvent state:SyncConnected type:None path:null
+2017-11-19 22:08:37,618 - zookeeper state changed (SyncConnected)
+2017-11-19 22:08:37,618 - Leaving process event
+2017-11-19 22:08:37,618 - State is SyncConnected
+2017-11-19 22:08:37,639 -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RouterFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.RouterFactory {
+public com.alibaba.dubbo.rpc.cluster.Router getRouter(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.RouterFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.RouterFactory extension = (com.alibaba.dubbo.rpc.cluster.RouterFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.RouterFactory.class).getExtension(extName);
+return extension.getRouter(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:37,660 -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ConfiguratorFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory {
+public com.alibaba.dubbo.rpc.cluster.Configurator getConfigurator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory extension = (com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory.class).getExtension(extName);
+return extension.getConfigurator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-11-19 22:08:37,679 -  [DUBBO] Register: consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=consumers&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:37,705 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,183,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,762 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,184,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,775 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,185,-110  request:: '/dubbo/com.helon.sso.service.UserService/consumers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,784 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,186,0  request:: '/dubbo/com.helon.sso.service.UserService/consumers/consumer%253A%252F%252F192.168.31.105%252Fcom.helon.sso.service.UserService%253Fapplication%253Dsso1.0-server%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D120320%2526revision%253D0.0.1-SNAPSHOT%2526side%253Dconsumer%2526timestamp%253D1511100517326,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/com.helon.sso.service.UserService/consumers/consumer%253A%252F%252F192.168.31.105%252Fcom.helon.sso.service.UserService%253Fapplication%253Dsso1.0-server%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D120320%2526revision%253D0.0.1-SNAPSHOT%2526side%253Dconsumer%2526timestamp%253D1511100517326 
+2017-11-19 22:08:37,785 -  [DUBBO] Subscribe: consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:37,793 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,187,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,801 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,188,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,808 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,189,-110  request:: '/dubbo/com.helon.sso.service.UserService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,821 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,189,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: s{4,4,1510495430351,1510495430351,0,19,0,0,0,1,178} 
+2017-11-19 22:08:37,834 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 9,8  replyHeader:: 9,189,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: v{'dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D123524%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1511100475208} 
+2017-11-19 22:08:37,841 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 10,1  replyHeader:: 10,190,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,848 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 11,1  replyHeader:: 11,191,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,854 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,192,-110  request:: '/dubbo/com.helon.sso.service.UserService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,861 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,192,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: s{8,8,1510495430421,1510495430421,0,0,0,0,0,0,8} 
+2017-11-19 22:08:37,869 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 14,8  replyHeader:: 14,192,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: v{} 
+2017-11-19 22:08:37,878 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 15,1  replyHeader:: 15,193,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,886 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 16,1  replyHeader:: 16,194,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,895 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 17,1  replyHeader:: 17,195,-110  request:: '/dubbo/com.helon.sso.service.UserService/routers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:08:37,903 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,195,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: s{22,22,1510495565298,1510495565298,0,0,0,0,0,0,22} 
+2017-11-19 22:08:37,913 - Reading reply sessionid:0x15fb025e2dc0010, packet:: clientPath:null serverPath:null finished:false header:: 19,8  replyHeader:: 19,195,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: v{} 
+2017-11-19 22:08:37,914 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=123524&retries=0&side=provider&timeout=30000&timestamp=1511100475208, empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=configurators&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,001 -  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adpative implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([server, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,199 -  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adpative implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,226 -  [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adpative implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("threadpool", "fixed");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(" + url.toString() + ") use keys([threadpool])");
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,391 -  [DUBBO] Successed connect to server /192.168.31.105:20980 from NettyClient 192.168.31.105 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x0ee446dd, /192.168.31.105:57603 => /192.168.31.105:20980]], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,393 -  [DUBBO] Start NettyClient USER-20150622LD/192.168.31.105 connect to the server /192.168.31.105:20980, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,467 -  [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adpative implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("cache", "lru");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(" + url.toString() + ") use keys([cache])");
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,493 -  [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adpative implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,523 -  [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adpative implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("validation", "jvalidation");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(" + url.toString() + ") use keys([validation])");
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,567 -  [DUBBO] Refer dubbo service com.helon.sso.service.UserService from url zookeeper://47.93.195.131:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=sso1.0-server&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&retries=0&revision=0.0.1-SNAPSHOT&side=consumer&timeout=30000&timestamp=1511100517326, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:08:38,587 - Autowiring by type from bean name 'userController' to bean named 'userServiceImpl'
+2017-11-19 22:08:38,588 - Finished creating instance of bean 'userController'
+2017-11-19 22:08:38,588 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-11-19 22:08:38,589 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-11-19 22:08:38,589 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-11-19 22:08:38,589 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-11-19 22:08:38,589 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2017-11-19 22:08:38,590 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2017-11-19 22:08:38,595 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2017-11-19 22:08:38,608 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2017-11-19 22:08:38,608 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-11-19 22:08:38,608 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-11-19 22:08:38,609 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2017-11-19 22:08:38,617 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-11-19 22:08:38,617 - Returning cached instance of singleton bean 'sso1.0-server'
+2017-11-19 22:08:38,617 - Returning cached instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-11-19 22:08:38,618 - Returning cached instance of singleton bean 'userServiceImpl'
+2017-11-19 22:08:38,618 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-11-19 22:08:38,618 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-11-19 22:08:38,618 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-11-19 22:08:38,705 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1e1fb0f]
+2017-11-19 22:08:38,706 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-11-19 22:08:38,708 - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2017-11-19 22:08:38,709 - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-11-19 22:08:38,718 - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2017-11-19 22:08:38,718 - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@709495]
+2017-11-19 22:08:38,720 - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-11-19 22:08:38,735 - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2017-11-19 22:08:38,735 - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@55d03e]
+2017-11-19 22:08:38,736 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+2017-11-19 22:08:38,736 - Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2017-11-19 22:08:38,737 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+2017-11-19 22:08:38,737 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2017-11-19 22:08:38,737 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2017-11-19 22:08:38,743 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2017-11-19 22:08:38,744 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2017-11-19 22:08:38,744 - Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2017-11-19 22:08:38,745 - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-11-19 22:08:38,758 - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2017-11-19 22:08:38,758 - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1b6ed74]
+2017-11-19 22:08:38,759 - Returning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
+2017-11-19 22:08:38,761 - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-11-19 22:08:38,776 - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2017-11-19 22:08:38,777 - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@d5301d]
+2017-11-19 22:08:38,779 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2017-11-19 22:08:38,779 - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2017-11-19 22:08:38,779 - Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2017-11-19 22:08:38,779 - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2017-11-19 22:08:38,782 - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2017-11-19 22:08:38,782 - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2017-11-19 22:08:38,782 - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2017-11-19 22:08:38,783 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-11-19 22:08:38,783 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-11-19 22:08:38,783 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-11-19 22:08:38,787 - Published WebApplicationContext of servlet 'sso1.0-web' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.sso1.0-web]
+2017-11-19 22:08:38,787 - FrameworkServlet 'sso1.0-web': initialization completed in 4604 ms
+2017-11-19 22:08:38,787 - Servlet 'sso1.0-web' configured successfully
+2017-11-19 22:08:47,922 - Got ping response for sessionid: 0x15fb025e2dc0010 after 15ms
+2017-11-19 22:08:58,117 - Got ping response for sessionid: 0x15fb025e2dc0010 after 209ms
+2017-11-19 22:09:04,608 - DispatcherServlet with name 'sso1.0-web' processing GET request for [/user/1]
+2017-11-19 22:09:04,613 - Looking up handler method for path /user/1
+2017-11-19 22:09:04,620 - Returning handler method [public com.helon.sso.pojo.TUserinfo com.helon.sso.controller.UserController.getUserById(java.lang.Long)]
+2017-11-19 22:09:04,620 - Returning cached instance of singleton bean 'userController'
+2017-11-19 22:09:04,622 - Last-Modified value for [/user/1] is: -1
+2017-11-19 22:09:06,552 -  [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:09:06,754 - Written [TUserinfo [Hash = 24397590, id=1, accountNo=18600210664, password=123, userName=helon, sex=false, serialVersionUID=1]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@16103d5]
+2017-11-19 22:09:06,754 - Null ModelAndView returned to DispatcherServlet with name 'sso1.0-web': assuming HandlerAdapter completed request handling
+2017-11-19 22:09:06,755 - Successfully completed request
+2017-11-19 22:09:07,918 - Got ping response for sessionid: 0x15fb025e2dc0010 after 6ms
+2017-11-19 22:09:09,817 - DispatcherServlet with name 'sso1.0-web' processing GET request for [/user/1]
+2017-11-19 22:09:09,817 - Looking up handler method for path /user/1
+2017-11-19 22:09:09,817 - Returning handler method [public com.helon.sso.pojo.TUserinfo com.helon.sso.controller.UserController.getUserById(java.lang.Long)]
+2017-11-19 22:09:09,817 - Returning cached instance of singleton bean 'userController'
+2017-11-19 22:09:09,818 - Last-Modified value for [/user/1] is: -1
+2017-11-19 22:09:09,873 -  [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:09:09,877 - Written [TUserinfo [Hash = 19990521, id=1, accountNo=18600210664, password=123, userName=helon, sex=false, serialVersionUID=1]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@16103d5]
+2017-11-19 22:09:09,878 - Null ModelAndView returned to DispatcherServlet with name 'sso1.0-web': assuming HandlerAdapter completed request handling
+2017-11-19 22:09:09,879 - Successfully completed request
+2017-11-19 22:09:15,202 - DispatcherServlet with name 'sso1.0-web' processing GET request for [/user/2]
+2017-11-19 22:09:15,202 - Looking up handler method for path /user/2
+2017-11-19 22:09:15,202 - Returning handler method [public com.helon.sso.pojo.TUserinfo com.helon.sso.controller.UserController.getUserById(java.lang.Long)]
+2017-11-19 22:09:15,203 - Returning cached instance of singleton bean 'userController'
+2017-11-19 22:09:15,203 - Last-Modified value for [/user/2] is: -1
+2017-11-19 22:09:15,395 -  [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:09:15,399 - Null ModelAndView returned to DispatcherServlet with name 'sso1.0-web': assuming HandlerAdapter completed request handling
+2017-11-19 22:09:15,399 - Successfully completed request
+2017-11-19 22:09:17,922 - Got ping response for sessionid: 0x15fb025e2dc0010 after 9ms
+2017-11-19 22:09:19,090 - DispatcherServlet with name 'sso1.0-web' processing GET request for [/user/1]
+2017-11-19 22:09:19,091 - Looking up handler method for path /user/1
+2017-11-19 22:09:19,091 - Returning handler method [public com.helon.sso.pojo.TUserinfo com.helon.sso.controller.UserController.getUserById(java.lang.Long)]
+2017-11-19 22:09:19,091 - Returning cached instance of singleton bean 'userController'
+2017-11-19 22:09:19,091 - Last-Modified value for [/user/1] is: -1
+2017-11-19 22:09:19,160 -  [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:09:19,163 - Written [TUserinfo [Hash = 30762521, id=1, accountNo=18600210664, password=123, userName=helon, sex=false, serialVersionUID=1]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@16103d5]
+2017-11-19 22:09:19,163 - Null ModelAndView returned to DispatcherServlet with name 'sso1.0-web': assuming HandlerAdapter completed request handling
+2017-11-19 22:09:19,163 - Successfully completed request
+2017-11-19 22:09:28,167 - Got ping response for sessionid: 0x15fb025e2dc0010 after 253ms
+2017-11-19 22:09:37,974 - Got ping response for sessionid: 0x15fb025e2dc0010 after 59ms
+2017-11-19 22:09:47,925 - Got ping response for sessionid: 0x15fb025e2dc0010 after 9ms
+2017-11-19 22:09:57,924 - Got ping response for sessionid: 0x15fb025e2dc0010 after 8ms
+2017-11-19 22:10:07,948 - Got ping response for sessionid: 0x15fb025e2dc0010 after 31ms
+2017-11-19 22:10:17,952 - Got ping response for sessionid: 0x15fb025e2dc0010 after 35ms
+2017-11-19 22:10:27,931 - Got ping response for sessionid: 0x15fb025e2dc0010 after 14ms
+2017-11-19 22:10:37,932 - Got ping response for sessionid: 0x15fb025e2dc0010 after 14ms
+2017-11-19 22:10:38,401 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:10:38,404 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:10:47,971 - Got ping response for sessionid: 0x15fb025e2dc0010 after 52ms
+2017-11-19 22:10:58,096 - Got ping response for sessionid: 0x15fb025e2dc0010 after 175ms
+2017-11-19 22:11:07,962 - Got ping response for sessionid: 0x15fb025e2dc0010 after 41ms
+2017-11-19 22:11:17,926 - Got ping response for sessionid: 0x15fb025e2dc0010 after 4ms
+2017-11-19 22:11:28,244 - Got ping response for sessionid: 0x15fb025e2dc0010 after 321ms
+2017-11-19 22:11:37,943 - Got ping response for sessionid: 0x15fb025e2dc0010 after 19ms
+2017-11-19 22:11:38,404 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:11:38,407 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:11:47,936 - Got ping response for sessionid: 0x15fb025e2dc0010 after 12ms
+2017-11-19 22:11:57,938 - Got ping response for sessionid: 0x15fb025e2dc0010 after 13ms
+2017-11-19 22:12:08,179 - Got ping response for sessionid: 0x15fb025e2dc0010 after 253ms
+2017-11-19 22:12:18,113 - Got ping response for sessionid: 0x15fb025e2dc0010 after 186ms
+2017-11-19 22:12:27,932 - Got ping response for sessionid: 0x15fb025e2dc0010 after 5ms
+2017-11-19 22:12:38,031 - Got ping response for sessionid: 0x15fb025e2dc0010 after 103ms
+2017-11-19 22:12:38,406 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:12:38,408 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:12:48,133 - Got ping response for sessionid: 0x15fb025e2dc0010 after 204ms
+2017-11-19 22:12:58,061 - Got ping response for sessionid: 0x15fb025e2dc0010 after 133ms
+2017-11-19 22:13:07,969 - Got ping response for sessionid: 0x15fb025e2dc0010 after 39ms
+2017-11-19 22:13:17,948 - Got ping response for sessionid: 0x15fb025e2dc0010 after 17ms
+2017-11-19 22:13:27,955 - Got ping response for sessionid: 0x15fb025e2dc0010 after 24ms
+2017-11-19 22:13:37,957 - Got ping response for sessionid: 0x15fb025e2dc0010 after 24ms
+2017-11-19 22:13:38,407 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:13:38,411 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:13:47,975 - Got ping response for sessionid: 0x15fb025e2dc0010 after 42ms
+2017-11-19 22:13:58,194 - Got ping response for sessionid: 0x15fb025e2dc0010 after 260ms
+2017-11-19 22:14:07,976 - Got ping response for sessionid: 0x15fb025e2dc0010 after 41ms
+2017-11-19 22:14:17,967 - Got ping response for sessionid: 0x15fb025e2dc0010 after 31ms
+2017-11-19 22:14:28,235 - Got ping response for sessionid: 0x15fb025e2dc0010 after 298ms
+2017-11-19 22:14:37,952 - Got ping response for sessionid: 0x15fb025e2dc0010 after 13ms
+2017-11-19 22:14:38,411 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:14:38,413 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:14:48,232 - Got ping response for sessionid: 0x15fb025e2dc0010 after 292ms
+2017-11-19 22:14:57,962 - Got ping response for sessionid: 0x15fb025e2dc0010 after 20ms
+2017-11-19 22:15:07,963 - Got ping response for sessionid: 0x15fb025e2dc0010 after 21ms
+2017-11-19 22:15:17,950 - Got ping response for sessionid: 0x15fb025e2dc0010 after 6ms
+2017-11-19 22:15:27,968 - Got ping response for sessionid: 0x15fb025e2dc0010 after 25ms
+2017-11-19 22:15:37,958 - Got ping response for sessionid: 0x15fb025e2dc0010 after 15ms
+2017-11-19 22:15:38,414 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:15:38,416 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:15:47,957 - Got ping response for sessionid: 0x15fb025e2dc0010 after 12ms
+2017-11-19 22:15:57,957 - Got ping response for sessionid: 0x15fb025e2dc0010 after 10ms
+2017-11-19 22:16:08,332 - Got ping response for sessionid: 0x15fb025e2dc0010 after 384ms
+2017-11-19 22:16:17,965 - Got ping response for sessionid: 0x15fb025e2dc0010 after 18ms
+2017-11-19 22:16:27,955 - Got ping response for sessionid: 0x15fb025e2dc0010 after 6ms
+2017-11-19 22:16:37,969 - Got ping response for sessionid: 0x15fb025e2dc0010 after 19ms
+2017-11-19 22:16:38,415 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:16:38,417 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:16:48,076 - Got ping response for sessionid: 0x15fb025e2dc0010 after 124ms
+2017-11-19 22:16:58,027 - Got ping response for sessionid: 0x15fb025e2dc0010 after 74ms
+2017-11-19 22:17:08,922 - Got ping response for sessionid: 0x15fb025e2dc0010 after 968ms
+2017-11-19 22:17:17,962 - Got ping response for sessionid: 0x15fb025e2dc0010 after 7ms
+2017-11-19 22:17:28,179 - Got ping response for sessionid: 0x15fb025e2dc0010 after 224ms
+2017-11-19 22:17:38,288 - Got ping response for sessionid: 0x15fb025e2dc0010 after 332ms
+2017-11-19 22:17:38,420 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:17:38,422 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:17:48,010 - Got ping response for sessionid: 0x15fb025e2dc0010 after 53ms
+2017-11-19 22:17:58,349 - Got ping response for sessionid: 0x15fb025e2dc0010 after 394ms
+2017-11-19 22:18:08,056 - Got ping response for sessionid: 0x15fb025e2dc0010 after 98ms
+2017-11-19 22:18:17,975 - Got ping response for sessionid: 0x15fb025e2dc0010 after 18ms
+2017-11-19 22:18:27,972 - Got ping response for sessionid: 0x15fb025e2dc0010 after 15ms
+2017-11-19 22:18:37,989 - Got ping response for sessionid: 0x15fb025e2dc0010 after 32ms
+2017-11-19 22:18:38,423 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:18:38,425 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:18:47,972 - Got ping response for sessionid: 0x15fb025e2dc0010 after 13ms
+2017-11-19 22:18:57,968 - Got ping response for sessionid: 0x15fb025e2dc0010 after 9ms
+2017-11-19 22:19:07,993 - Got ping response for sessionid: 0x15fb025e2dc0010 after 33ms
+2017-11-19 22:19:18,011 - Got ping response for sessionid: 0x15fb025e2dc0010 after 52ms
+2017-11-19 22:19:27,979 - Got ping response for sessionid: 0x15fb025e2dc0010 after 20ms
+2017-11-19 22:19:37,972 - Got ping response for sessionid: 0x15fb025e2dc0010 after 12ms
+2017-11-19 22:19:38,424 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:19:38,426 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:19:47,971 - Got ping response for sessionid: 0x15fb025e2dc0010 after 11ms
+2017-11-19 22:19:57,974 - Got ping response for sessionid: 0x15fb025e2dc0010 after 13ms
+2017-11-19 22:20:07,990 - Got ping response for sessionid: 0x15fb025e2dc0010 after 28ms
+2017-11-19 22:20:17,975 - Got ping response for sessionid: 0x15fb025e2dc0010 after 11ms
+2017-11-19 22:20:27,985 - Got ping response for sessionid: 0x15fb025e2dc0010 after 21ms
+2017-11-19 22:20:37,977 - Got ping response for sessionid: 0x15fb025e2dc0010 after 12ms
+2017-11-19 22:20:38,425 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:20:38,427 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:20:48,126 - Got ping response for sessionid: 0x15fb025e2dc0010 after 159ms
+2017-11-19 22:20:58,010 - Got ping response for sessionid: 0x15fb025e2dc0010 after 41ms
+2017-11-19 22:21:08,025 - Got ping response for sessionid: 0x15fb025e2dc0010 after 56ms
+2017-11-19 22:21:17,983 - Got ping response for sessionid: 0x15fb025e2dc0010 after 12ms
+2017-11-19 22:21:28,034 - Got ping response for sessionid: 0x15fb025e2dc0010 after 63ms
+2017-11-19 22:21:38,065 - Got ping response for sessionid: 0x15fb025e2dc0010 after 93ms
+2017-11-19 22:21:38,426 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:21:38,428 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:21:48,028 - Got ping response for sessionid: 0x15fb025e2dc0010 after 56ms
+2017-11-19 22:21:57,986 - Got ping response for sessionid: 0x15fb025e2dc0010 after 13ms
+2017-11-19 22:22:08,658 - Got ping response for sessionid: 0x15fb025e2dc0010 after 683ms
+2017-11-19 22:22:18,005 - Got ping response for sessionid: 0x15fb025e2dc0010 after 28ms
+2017-11-19 22:22:28,589 - Got ping response for sessionid: 0x15fb025e2dc0010 after 611ms
+2017-11-19 22:22:38,427 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:22:38,429 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:22:39,326 - Got ping response for sessionid: 0x15fb025e2dc0010 after 1347ms
+2017-11-19 22:22:50,393 - Got ping response for sessionid: 0x15fb025e2dc0010 after 3414ms
+2017-11-19 22:22:57,769 - Got ping response for sessionid: 0x15fb025e2dc0010 after 1787ms
+2017-11-19 22:23:07,924 - Got ping response for sessionid: 0x15fb025e2dc0010 after 2940ms
+2017-11-19 22:23:27,926 - Client session timed out, have not heard from server in 20002ms for sessionid 0x15fb025e2dc0010
+2017-11-19 22:23:27,929 - Client session timed out, have not heard from server in 20002ms for sessionid 0x15fb025e2dc0010, closing socket connection and attempting reconnect
+2017-11-19 22:23:28,032 - Received event: WatchedEvent state:Disconnected type:None path:null
+2017-11-19 22:23:28,032 - zookeeper state changed (Disconnected)
+2017-11-19 22:23:28,033 - New event: ZkEvent[State changed to Disconnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:23:28,034 - Leaving process event
+2017-11-19 22:23:28,034 - Delivering event #1 ZkEvent[State changed to Disconnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:23:28,034 - Delivering event #1 done
+2017-11-19 22:23:29,473 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:23:38,428 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:23:38,430 -  [DUBBO] Receive heartbeat response in thread New I/O worker #1, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:23:50,482 - Session 0x15fb025e2dc0010 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2017-11-19 22:23:50,490 - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:402)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:23:50,490 - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:410)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:23:52,456 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:24:13,461 - Session 0x15fb025e2dc0010 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2017-11-19 22:24:13,462 - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:402)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:24:13,462 - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:410)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:24:15,089 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:24:25,827 - Socket connection established to 47.93.195.131/47.93.195.131:2181, initiating session
+2017-11-19 22:24:25,830 - Session establishment request sent on 47.93.195.131/47.93.195.131:2181
+2017-11-19 22:24:26,142 - Unable to reconnect to ZooKeeper service, session 0x15fb025e2dc0010 has expired
+2017-11-19 22:24:26,142 - Received event: WatchedEvent state:Expired type:None path:null
+2017-11-19 22:24:26,143 - zookeeper state changed (Expired)
+2017-11-19 22:24:26,143 - Unable to reconnect to ZooKeeper service, session 0x15fb025e2dc0010 has expired, closing socket connection
+2017-11-19 22:24:26,143 - New event: ZkEvent[State changed to Expired sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:24:26,145 - Closing ZooKeeper connected to 47.93.195.131:2181
+2017-11-19 22:24:26,146 - Close called on already closed client
+2017-11-19 22:24:26,147 - Creating new ZookKeeper instance to connect to 47.93.195.131:2181.
+2017-11-19 22:24:26,147 - Initiating client connection, connectString=47.93.195.131:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@29361b
+2017-11-19 22:24:26,146 - Delivering event #2 ZkEvent[State changed to Expired sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:24:26,150 - Delivering event #2 done
+2017-11-19 22:24:26,150 - New event: ZkEvent[New session event sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:24:26,151 - Delivering event #3 ZkEvent[New session event sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:24:26,151 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:24:26,157 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/routers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1ff83b9]
+2017-11-19 22:24:26,157 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/configurators changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@fd00e2]
+2017-11-19 22:24:26,157 - Leaving process event
+2017-11-19 22:24:26,156 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:24:26,151 -  [DUBBO] Recover register url [consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=consumers&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,164 -  [DUBBO] Recover subscribe url [consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,164 - Delivering event #3 done
+2017-11-19 22:24:26,164 - Delivering event #4 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:24:26,167 - EventThread shut down for session: 0x15fb025e2dc0010
+2017-11-19 22:24:26,173 - Socket connection established to 47.93.195.131/47.93.195.131:2181, initiating session
+2017-11-19 22:24:26,174 - Session establishment request sent on 47.93.195.131/47.93.195.131:2181
+2017-11-19 22:24:26,192 - Session establishment complete on server 47.93.195.131/47.93.195.131:2181, sessionid = 0x15fb025e2dc0011, negotiated timeout = 30000
+2017-11-19 22:24:26,193 - Received event: WatchedEvent state:SyncConnected type:None path:null
+2017-11-19 22:24:26,193 - zookeeper state changed (SyncConnected)
+2017-11-19 22:24:26,193 - New event: ZkEvent[State changed to SyncConnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:24:26,193 - Leaving process event
+2017-11-19 22:24:26,297 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,198,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: s{4,4,1510495430351,1510495430351,0,20,0,0,0,0,197} 
+2017-11-19 22:24:26,491 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 2,8  replyHeader:: 2,199,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: v{} 
+2017-11-19 22:24:26,493 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,497 -  [DUBBO] Close netty channel [id: 0x0ee446dd, /192.168.31.105:57603 => /192.168.31.105:20980], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,510 - Delivering event #4 done
+2017-11-19 22:24:26,511 - Delivering event #5 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/routers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1ff83b9]
+2017-11-19 22:24:26,522 -  [DUBBO] disconected from /192.168.31.105:20980,url:dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&retries=0&revision=0.0.1-SNAPSHOT&side=consumer&timeout=30000&timestamp=1511100517326, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,526 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,199,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: s{22,22,1510495565298,1510495565298,0,0,0,0,0,0,22} 
+2017-11-19 22:24:26,537 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,199,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: v{} 
+2017-11-19 22:24:26,541 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,550 -  [DUBBO] Successed connect to server /192.168.31.105:20980 from NettyClient 192.168.31.105 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x554f25fb, /192.168.31.105:58127 => /192.168.31.105:20980]], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,552 -  [DUBBO] Start NettyClient USER-20150622LD/192.168.31.105 connect to the server /192.168.31.105:20980, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,553 - Delivering event #5 done
+2017-11-19 22:24:26,554 - Delivering event #6 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/configurators changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@fd00e2]
+2017-11-19 22:24:26,594 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,199,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: s{8,8,1510495430421,1510495430421,0,0,0,0,0,0,8} 
+2017-11-19 22:24:26,605 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 6,8  replyHeader:: 6,199,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: v{} 
+2017-11-19 22:24:26,606 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=configurators&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:26,606 - Delivering event #6 done
+2017-11-19 22:24:26,607 - Delivering event #7 ZkEvent[State changed to SyncConnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:24:26,607 - Delivering event #7 done
+2017-11-19 22:24:27,611 -  [DUBBO] Retry register [consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=consumers&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:27,627 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,200,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,181 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 8,1  replyHeader:: 8,201,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,206 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 9,1  replyHeader:: 9,202,-110  request:: '/dubbo/com.helon.sso.service.UserService/consumers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,221 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 10,1  replyHeader:: 10,203,0  request:: '/dubbo/com.helon.sso.service.UserService/consumers/consumer%253A%252F%252F192.168.31.105%252Fcom.helon.sso.service.UserService%253Fapplication%253Dsso1.0-server%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D120320%2526revision%253D0.0.1-SNAPSHOT%2526side%253Dconsumer%2526timestamp%253D1511100517326,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/com.helon.sso.service.UserService/consumers/consumer%253A%252F%252F192.168.31.105%252Fcom.helon.sso.service.UserService%253Fapplication%253Dsso1.0-server%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D120320%2526revision%253D0.0.1-SNAPSHOT%2526side%253Dconsumer%2526timestamp%253D1511100517326 
+2017-11-19 22:24:28,221 -  [DUBBO] Retry subscribe {consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326=[com.alibaba.dubbo.registry.integration.RegistryDirectory@bece9]}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:28,240 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 11,1  replyHeader:: 11,204,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,252 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,205,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,268 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 13,1  replyHeader:: 13,206,-110  request:: '/dubbo/com.helon.sso.service.UserService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,276 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 14,3  replyHeader:: 14,206,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: s{4,4,1510495430351,1510495430351,0,20,0,0,0,0,197} 
+2017-11-19 22:24:28,283 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 15,8  replyHeader:: 15,206,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: v{} 
+2017-11-19 22:24:28,290 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 16,1  replyHeader:: 16,207,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,298 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 17,1  replyHeader:: 17,208,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,305 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 18,1  replyHeader:: 18,209,-110  request:: '/dubbo/com.helon.sso.service.UserService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,314 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 19,3  replyHeader:: 19,209,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: s{8,8,1510495430421,1510495430421,0,0,0,0,0,0,8} 
+2017-11-19 22:24:28,321 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 20,8  replyHeader:: 20,209,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: v{} 
+2017-11-19 22:24:28,330 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 21,1  replyHeader:: 21,210,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,341 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 22,1  replyHeader:: 22,211,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,349 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 23,1  replyHeader:: 23,212,-110  request:: '/dubbo/com.helon.sso.service.UserService/routers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:24:28,362 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 24,3  replyHeader:: 24,212,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: s{22,22,1510495565298,1510495565298,0,0,0,0,0,0,22} 
+2017-11-19 22:24:28,368 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 25,8  replyHeader:: 25,212,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: v{} 
+2017-11-19 22:24:28,369 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=configurators&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:28,372 -  [DUBBO] Close netty channel [id: 0x554f25fb, /192.168.31.105:58127 => /192.168.31.105:20980], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:28,376 -  [DUBBO] disconected from /192.168.31.105:20980,url:dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&retries=0&revision=0.0.1-SNAPSHOT&side=consumer&timeout=30000&timestamp=1511100517326, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:32,188 - Got notification sessionid:0x15fb025e2dc0011
+2017-11-19 22:24:32,193 - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/com.helon.sso.service.UserService/providers for sessionid 0x15fb025e2dc0011
+2017-11-19 22:24:32,195 - Received event: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/com.helon.sso.service.UserService/providers
+2017-11-19 22:24:32,195 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:24:32,195 - Leaving process event
+2017-11-19 22:24:32,195 - Delivering event #8 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:24:32,202 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 26,3  replyHeader:: 26,216,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: s{4,4,1510495430351,1510495430351,0,21,0,0,0,1,216} 
+2017-11-19 22:24:32,210 - Reading reply sessionid:0x15fb025e2dc0011, packet:: clientPath:null serverPath:null finished:false header:: 27,8  replyHeader:: 27,217,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: v{'dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D123524%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1511100475208} 
+2017-11-19 22:24:32,210 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=123524&retries=0&side=provider&timeout=30000&timestamp=1511100475208], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:32,216 -  [DUBBO] Successed connect to server /192.168.31.105:20980 from NettyClient 192.168.31.105 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x0a2f0f36, /192.168.31.105:58129 => /192.168.31.105:20980]], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:32,216 -  [DUBBO] Start NettyClient USER-20150622LD/192.168.31.105 connect to the server /192.168.31.105:20980, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:24:32,217 - Delivering event #8 done
+2017-11-19 22:24:45,758 - Got ping response for sessionid: 0x15fb025e2dc0011 after 3554ms
+2017-11-19 22:24:51,604 - Got ping response for sessionid: 0x15fb025e2dc0011 after 397ms
+2017-11-19 22:25:11,604 - Client session timed out, have not heard from server in 20000ms for sessionid 0x15fb025e2dc0011
+2017-11-19 22:25:11,604 - Client session timed out, have not heard from server in 20000ms for sessionid 0x15fb025e2dc0011, closing socket connection and attempting reconnect
+2017-11-19 22:25:11,705 - Received event: WatchedEvent state:Disconnected type:None path:null
+2017-11-19 22:25:11,705 - zookeeper state changed (Disconnected)
+2017-11-19 22:25:11,705 - New event: ZkEvent[State changed to Disconnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:25:11,705 - Leaving process event
+2017-11-19 22:25:11,705 - Delivering event #9 ZkEvent[State changed to Disconnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:25:11,705 - Delivering event #9 done
+2017-11-19 22:25:13,490 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:25:34,491 - Session 0x15fb025e2dc0011 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2017-11-19 22:25:34,492 - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:402)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:25:34,493 - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:410)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:25:35,723 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:25:55,939 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:25:56,726 - Session 0x15fb025e2dc0011 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1141)
+2017-11-19 22:25:56,729 - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:402)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:200)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:25:56,729 - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:410)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:207)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1246)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1170)
+2017-11-19 22:25:58,587 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:25:58,603 - Socket connection established to 47.93.195.131/47.93.195.131:2181, initiating session
+2017-11-19 22:25:58,604 - Session establishment request sent on 47.93.195.131/47.93.195.131:2181
+2017-11-19 22:25:58,618 - Unable to reconnect to ZooKeeper service, session 0x15fb025e2dc0011 has expired
+2017-11-19 22:25:58,618 - Received event: WatchedEvent state:Expired type:None path:null
+2017-11-19 22:25:58,619 - zookeeper state changed (Expired)
+2017-11-19 22:25:58,619 - Unable to reconnect to ZooKeeper service, session 0x15fb025e2dc0011 has expired, closing socket connection
+2017-11-19 22:25:58,619 - New event: ZkEvent[State changed to Expired sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:25:58,619 - Closing ZooKeeper connected to 47.93.195.131:2181
+2017-11-19 22:25:58,619 - Close called on already closed client
+2017-11-19 22:25:58,619 - Creating new ZookKeeper instance to connect to 47.93.195.131:2181.
+2017-11-19 22:25:58,620 - Initiating client connection, connectString=47.93.195.131:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@29361b
+2017-11-19 22:25:58,619 - Delivering event #10 ZkEvent[State changed to Expired sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:25:58,620 - Delivering event #10 done
+2017-11-19 22:25:58,622 - New event: ZkEvent[New session event sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:25:58,622 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:25:58,622 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/routers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1ff83b9]
+2017-11-19 22:25:58,624 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/configurators changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@fd00e2]
+2017-11-19 22:25:58,624 - Leaving process event
+2017-11-19 22:25:58,624 - EventThread shut down for session: 0x15fb025e2dc0011
+2017-11-19 22:25:58,625 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-11-19 22:25:58,625 - Delivering event #11 ZkEvent[New session event sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:25:58,626 -  [DUBBO] Recover register url [consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=consumers&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:25:58,626 -  [DUBBO] Recover subscribe url [consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:25:58,626 - Delivering event #11 done
+2017-11-19 22:25:58,626 - Delivering event #12 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:25:58,648 - Socket connection established to 47.93.195.131/47.93.195.131:2181, initiating session
+2017-11-19 22:25:58,649 - Session establishment request sent on 47.93.195.131/47.93.195.131:2181
+2017-11-19 22:25:59,281 - Session establishment complete on server 47.93.195.131/47.93.195.131:2181, sessionid = 0x15fb025e2dc0014, negotiated timeout = 30000
+2017-11-19 22:25:59,282 - Received event: WatchedEvent state:SyncConnected type:None path:null
+2017-11-19 22:25:59,282 - zookeeper state changed (SyncConnected)
+2017-11-19 22:25:59,282 - New event: ZkEvent[State changed to SyncConnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:25:59,282 - Leaving process event
+2017-11-19 22:26:01,149 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,223,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: s{4,4,1510495430351,1510495430351,0,22,0,0,0,0,221} 
+2017-11-19 22:26:01,654 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 2,8  replyHeader:: 2,223,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: v{} 
+2017-11-19 22:26:01,655 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:01,655 -  [DUBBO] Close netty channel [id: 0x0a2f0f36, /192.168.31.105:58129 => /192.168.31.105:20980], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:01,658 - Delivering event #12 done
+2017-11-19 22:26:01,658 - Delivering event #13 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/routers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1ff83b9]
+2017-11-19 22:26:01,660 -  [DUBBO] disconected from /192.168.31.105:20980,url:dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&retries=0&revision=0.0.1-SNAPSHOT&side=consumer&timeout=30000&timestamp=1511100517326, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:01,681 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 3,3  replyHeader:: 3,223,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: s{22,22,1510495565298,1510495565298,0,0,0,0,0,0,22} 
+2017-11-19 22:26:01,726 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 4,8  replyHeader:: 4,223,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: v{} 
+2017-11-19 22:26:01,727 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:01,731 -  [DUBBO] Successed connect to server /192.168.31.105:20980 from NettyClient 192.168.31.105 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x3c67debe, /192.168.31.105:58186 => /192.168.31.105:20980]], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:01,732 -  [DUBBO] Start NettyClient USER-20150622LD/192.168.31.105 connect to the server /192.168.31.105:20980, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:01,732 - Delivering event #13 done
+2017-11-19 22:26:01,733 - Delivering event #14 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/configurators changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@fd00e2]
+2017-11-19 22:26:01,954 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 5,3  replyHeader:: 5,223,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: s{8,8,1510495430421,1510495430421,0,0,0,0,0,0,8} 
+2017-11-19 22:26:02,020 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 6,8  replyHeader:: 6,223,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: v{} 
+2017-11-19 22:26:02,020 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=configurators&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:02,021 - Delivering event #14 done
+2017-11-19 22:26:02,021 - Delivering event #15 ZkEvent[State changed to SyncConnected sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$1@107e8c9]
+2017-11-19 22:26:02,021 - Delivering event #15 done
+2017-11-19 22:26:02,438 - Got notification sessionid:0x15fb025e2dc0014
+2017-11-19 22:26:02,439 - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/com.helon.sso.service.UserService/providers for sessionid 0x15fb025e2dc0014
+2017-11-19 22:26:02,439 - Received event: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/dubbo/com.helon.sso.service.UserService/providers
+2017-11-19 22:26:02,439 - New event: ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:26:02,439 - Leaving process event
+2017-11-19 22:26:02,439 - Delivering event #16 ZkEvent[Children of /dubbo/com.helon.sso.service.UserService/providers changed sent to com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient$2@1c00ad9]
+2017-11-19 22:26:02,504 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 7,3  replyHeader:: 7,228,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: s{4,4,1510495430351,1510495430351,0,23,0,0,0,1,227} 
+2017-11-19 22:26:02,523 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 8,8  replyHeader:: 8,228,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: v{'dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D123524%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1511100475208} 
+2017-11-19 22:26:02,524 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=123524&retries=0&side=provider&timeout=30000&timestamp=1511100475208], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:02,524 - Delivering event #16 done
+2017-11-19 22:26:03,404 -  [DUBBO] Retry register [consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=consumers&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:03,526 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 9,1  replyHeader:: 9,231,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:03,538 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 10,1  replyHeader:: 10,232,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:03,597 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 11,1  replyHeader:: 11,233,-110  request:: '/dubbo/com.helon.sso.service.UserService/consumers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:03,614 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,234,0  request:: '/dubbo/com.helon.sso.service.UserService/consumers/consumer%253A%252F%252F192.168.31.105%252Fcom.helon.sso.service.UserService%253Fapplication%253Dsso1.0-server%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D120320%2526revision%253D0.0.1-SNAPSHOT%2526side%253Dconsumer%2526timestamp%253D1511100517326,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/com.helon.sso.service.UserService/consumers/consumer%253A%252F%252F192.168.31.105%252Fcom.helon.sso.service.UserService%253Fapplication%253Dsso1.0-server%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D120320%2526revision%253D0.0.1-SNAPSHOT%2526side%253Dconsumer%2526timestamp%253D1511100517326 
+2017-11-19 22:26:03,614 -  [DUBBO] Retry subscribe {consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326=[com.alibaba.dubbo.registry.integration.RegistryDirectory@bece9]}, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:03,653 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 13,1  replyHeader:: 13,235,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:03,683 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 14,1  replyHeader:: 14,236,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:03,735 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 15,1  replyHeader:: 15,237,-110  request:: '/dubbo/com.helon.sso.service.UserService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:03,776 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 16,3  replyHeader:: 16,237,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: s{4,4,1510495430351,1510495430351,0,23,0,0,0,1,227} 
+2017-11-19 22:26:03,860 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 17,8  replyHeader:: 17,237,0  request:: '/dubbo/com.helon.sso.service.UserService/providers,T  response:: v{'dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D123524%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1511100475208} 
+2017-11-19 22:26:03,942 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 18,1  replyHeader:: 18,238,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:03,982 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 19,1  replyHeader:: 19,239,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:04,036 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 20,1  replyHeader:: 20,240,-110  request:: '/dubbo/com.helon.sso.service.UserService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:04,084 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 21,3  replyHeader:: 21,240,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: s{8,8,1510495430421,1510495430421,0,0,0,0,0,0,8} 
+2017-11-19 22:26:04,172 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 22,8  replyHeader:: 22,240,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: v{} 
+2017-11-19 22:26:04,191 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 23,1  replyHeader:: 23,241,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:04,280 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 24,1  replyHeader:: 24,242,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:04,295 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 25,1  replyHeader:: 25,243,-110  request:: '/dubbo/com.helon.sso.service.UserService/routers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-11-19 22:26:04,359 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 26,3  replyHeader:: 26,243,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: s{22,22,1510495565298,1510495565298,0,0,0,0,0,0,22} 
+2017-11-19 22:26:04,755 - Reading reply sessionid:0x15fb025e2dc0014, packet:: clientPath:null serverPath:null finished:false header:: 27,8  replyHeader:: 27,243,0  request:: '/dubbo/com.helon.sso.service.UserService/routers,T  response:: v{} 
+2017-11-19 22:26:04,756 -  [DUBBO] Notify urls for subscribe url consumer://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=providers,configurators,routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, urls: [dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=123524&retries=0&side=provider&timeout=30000&timestamp=1511100475208, empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=configurators&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326, empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120320&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511100517326], dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:26:14,367 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:26:24,380 - Got ping response for sessionid: 0x15fb025e2dc0014 after 19ms
+2017-11-19 22:26:34,384 - Got ping response for sessionid: 0x15fb025e2dc0014 after 22ms
+2017-11-19 22:26:44,428 - Got ping response for sessionid: 0x15fb025e2dc0014 after 65ms
+2017-11-19 22:26:54,372 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:27:04,403 - Got ping response for sessionid: 0x15fb025e2dc0014 after 38ms
+2017-11-19 22:27:14,373 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:27:24,387 - Got ping response for sessionid: 0x15fb025e2dc0014 after 19ms
+2017-11-19 22:27:34,408 - Got ping response for sessionid: 0x15fb025e2dc0014 after 40ms
+2017-11-19 22:27:44,400 - Got ping response for sessionid: 0x15fb025e2dc0014 after 32ms
+2017-11-19 22:27:54,376 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:27:55,967 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:28:04,383 - Got ping response for sessionid: 0x15fb025e2dc0014 after 13ms
+2017-11-19 22:28:14,382 - Got ping response for sessionid: 0x15fb025e2dc0014 after 10ms
+2017-11-19 22:28:24,391 - Got ping response for sessionid: 0x15fb025e2dc0014 after 19ms
+2017-11-19 22:28:34,406 - Got ping response for sessionid: 0x15fb025e2dc0014 after 34ms
+2017-11-19 22:28:44,382 - Got ping response for sessionid: 0x15fb025e2dc0014 after 9ms
+2017-11-19 22:28:54,389 - Got ping response for sessionid: 0x15fb025e2dc0014 after 15ms
+2017-11-19 22:28:55,968 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:29:04,388 - Got ping response for sessionid: 0x15fb025e2dc0014 after 13ms
+2017-11-19 22:29:14,382 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:29:24,389 - Got ping response for sessionid: 0x15fb025e2dc0014 after 13ms
+2017-11-19 22:29:34,539 - Got ping response for sessionid: 0x15fb025e2dc0014 after 163ms
+2017-11-19 22:29:44,385 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:29:54,387 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:29:55,970 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:30:04,386 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:30:14,388 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:30:24,390 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:30:34,393 - Got ping response for sessionid: 0x15fb025e2dc0014 after 11ms
+2017-11-19 22:30:44,392 - Got ping response for sessionid: 0x15fb025e2dc0014 after 9ms
+2017-11-19 22:30:54,394 - Got ping response for sessionid: 0x15fb025e2dc0014 after 10ms
+2017-11-19 22:30:55,972 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:31:04,411 - Got ping response for sessionid: 0x15fb025e2dc0014 after 27ms
+2017-11-19 22:31:14,392 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:31:24,418 - Got ping response for sessionid: 0x15fb025e2dc0014 after 32ms
+2017-11-19 22:31:34,394 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:31:44,396 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:31:54,394 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:31:55,976 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:32:04,396 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:32:14,399 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:32:24,397 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:32:34,400 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:32:44,408 - Got ping response for sessionid: 0x15fb025e2dc0014 after 15ms
+2017-11-19 22:32:54,400 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:32:55,985 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:33:04,404 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:33:14,402 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:33:24,422 - Got ping response for sessionid: 0x15fb025e2dc0014 after 25ms
+2017-11-19 22:33:34,404 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:33:44,406 - Got ping response for sessionid: 0x15fb025e2dc0014 after 9ms
+2017-11-19 22:33:54,406 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:33:55,987 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:34:04,407 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:34:14,410 - Got ping response for sessionid: 0x15fb025e2dc0014 after 9ms
+2017-11-19 22:34:24,418 - Got ping response for sessionid: 0x15fb025e2dc0014 after 17ms
+2017-11-19 22:34:34,407 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:34:44,414 - Got ping response for sessionid: 0x15fb025e2dc0014 after 11ms
+2017-11-19 22:34:54,411 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:34:55,999 -  [DUBBO] Received heartbeat from remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:35:04,411 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:35:14,411 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:35:24,413 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:35:34,413 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:35:44,415 - Got ping response for sessionid: 0x15fb025e2dc0014 after 9ms
+2017-11-19 22:35:54,413 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:36:01,754 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:36:01,757 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:36:04,413 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:36:14,415 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:36:24,416 - Got ping response for sessionid: 0x15fb025e2dc0014 after 9ms
+2017-11-19 22:36:34,413 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:36:44,417 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:36:54,417 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:37:01,756 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:37:01,759 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:37:04,431 - Got ping response for sessionid: 0x15fb025e2dc0014 after 20ms
+2017-11-19 22:37:14,421 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:37:24,419 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:37:34,419 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:37:44,422 - Got ping response for sessionid: 0x15fb025e2dc0014 after 9ms
+2017-11-19 22:37:54,419 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:38:01,757 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:38:01,759 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:38:04,421 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:38:14,423 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:38:24,423 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:38:34,422 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:38:44,433 - Got ping response for sessionid: 0x15fb025e2dc0014 after 15ms
+2017-11-19 22:38:54,433 - Got ping response for sessionid: 0x15fb025e2dc0014 after 15ms
+2017-11-19 22:39:01,760 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:39:01,762 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:39:04,426 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:39:14,431 - Got ping response for sessionid: 0x15fb025e2dc0014 after 12ms
+2017-11-19 22:39:24,426 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:39:34,430 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:39:44,430 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:39:54,431 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:40:01,760 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:40:01,762 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:40:04,431 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:40:14,432 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:40:24,434 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:40:34,434 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:40:44,438 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:40:54,439 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:41:01,761 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:41:01,763 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:41:04,437 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:41:14,436 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:41:24,444 - Got ping response for sessionid: 0x15fb025e2dc0014 after 13ms
+2017-11-19 22:41:34,441 - Got ping response for sessionid: 0x15fb025e2dc0014 after 10ms
+2017-11-19 22:41:44,437 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:41:54,437 - Got ping response for sessionid: 0x15fb025e2dc0014 after 5ms
+2017-11-19 22:42:01,763 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:42:01,765 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:42:04,455 - Got ping response for sessionid: 0x15fb025e2dc0014 after 23ms
+2017-11-19 22:42:14,448 - Got ping response for sessionid: 0x15fb025e2dc0014 after 16ms
+2017-11-19 22:42:24,458 - Got ping response for sessionid: 0x15fb025e2dc0014 after 25ms
+2017-11-19 22:42:34,460 - Got ping response for sessionid: 0x15fb025e2dc0014 after 27ms
+2017-11-19 22:42:44,447 - Got ping response for sessionid: 0x15fb025e2dc0014 after 13ms
+2017-11-19 22:42:54,455 - Got ping response for sessionid: 0x15fb025e2dc0014 after 19ms
+2017-11-19 22:43:01,764 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:43:01,769 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:43:04,446 - Got ping response for sessionid: 0x15fb025e2dc0014 after 10ms
+2017-11-19 22:43:14,457 - Got ping response for sessionid: 0x15fb025e2dc0014 after 19ms
+2017-11-19 22:43:24,445 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:43:34,445 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:43:44,445 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:43:54,448 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:44:01,767 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:44:01,770 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:44:04,447 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:44:14,449 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:44:24,448 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:44:34,448 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:44:44,449 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:44:54,449 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:45:01,769 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:45:01,772 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:45:04,457 - Got ping response for sessionid: 0x15fb025e2dc0014 after 13ms
+2017-11-19 22:45:14,452 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:45:24,508 - Got ping response for sessionid: 0x15fb025e2dc0014 after 63ms
+2017-11-19 22:45:34,479 - Got ping response for sessionid: 0x15fb025e2dc0014 after 32ms
+2017-11-19 22:45:44,545 - Got ping response for sessionid: 0x15fb025e2dc0014 after 98ms
+2017-11-19 22:45:54,475 - Got ping response for sessionid: 0x15fb025e2dc0014 after 28ms
+2017-11-19 22:46:01,771 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:46:01,774 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:46:04,462 - Got ping response for sessionid: 0x15fb025e2dc0014 after 12ms
+2017-11-19 22:46:14,459 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:46:24,465 - Got ping response for sessionid: 0x15fb025e2dc0014 after 14ms
+2017-11-19 22:46:34,491 - Got ping response for sessionid: 0x15fb025e2dc0014 after 38ms
+2017-11-19 22:46:44,513 - Got ping response for sessionid: 0x15fb025e2dc0014 after 59ms
+2017-11-19 22:46:54,480 - Got ping response for sessionid: 0x15fb025e2dc0014 after 25ms
+2017-11-19 22:47:01,772 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:47:01,774 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:47:04,745 - Got ping response for sessionid: 0x15fb025e2dc0014 after 290ms
+2017-11-19 22:47:14,465 - Got ping response for sessionid: 0x15fb025e2dc0014 after 11ms
+2017-11-19 22:47:24,489 - Got ping response for sessionid: 0x15fb025e2dc0014 after 33ms
+2017-11-19 22:47:34,492 - Got ping response for sessionid: 0x15fb025e2dc0014 after 36ms
+2017-11-19 22:47:44,465 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:47:54,469 - Got ping response for sessionid: 0x15fb025e2dc0014 after 12ms
+2017-11-19 22:48:01,773 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:48:01,775 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:48:04,482 - Got ping response for sessionid: 0x15fb025e2dc0014 after 24ms
+2017-11-19 22:48:14,551 - Got ping response for sessionid: 0x15fb025e2dc0014 after 92ms
+2017-11-19 22:48:24,481 - Got ping response for sessionid: 0x15fb025e2dc0014 after 21ms
+2017-11-19 22:48:34,479 - Got ping response for sessionid: 0x15fb025e2dc0014 after 17ms
+2017-11-19 22:48:44,470 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:48:54,695 - Got ping response for sessionid: 0x15fb025e2dc0014 after 231ms
+2017-11-19 22:49:01,775 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:49:01,777 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:49:04,487 - Got ping response for sessionid: 0x15fb025e2dc0014 after 22ms
+2017-11-19 22:49:14,477 - Got ping response for sessionid: 0x15fb025e2dc0014 after 11ms
+2017-11-19 22:49:24,487 - Got ping response for sessionid: 0x15fb025e2dc0014 after 21ms
+2017-11-19 22:49:34,552 - Got ping response for sessionid: 0x15fb025e2dc0014 after 85ms
+2017-11-19 22:49:44,474 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:49:54,475 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:50:01,778 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:50:01,780 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:50:04,476 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:50:14,483 - Got ping response for sessionid: 0x15fb025e2dc0014 after 13ms
+2017-11-19 22:50:24,490 - Got ping response for sessionid: 0x15fb025e2dc0014 after 19ms
+2017-11-19 22:50:34,478 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:50:44,479 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:50:54,478 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:51:01,779 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:51:01,791 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:51:04,480 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:51:14,482 - Got ping response for sessionid: 0x15fb025e2dc0014 after 8ms
+2017-11-19 22:51:24,481 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:51:34,482 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:51:44,486 - Got ping response for sessionid: 0x15fb025e2dc0014 after 11ms
+2017-11-19 22:51:54,487 - Got ping response for sessionid: 0x15fb025e2dc0014 after 11ms
+2017-11-19 22:52:01,781 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:52:01,783 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:52:04,483 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:52:14,486 - Got ping response for sessionid: 0x15fb025e2dc0014 after 10ms
+2017-11-19 22:52:24,483 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:52:34,483 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:52:44,488 - Got ping response for sessionid: 0x15fb025e2dc0014 after 11ms
+2017-11-19 22:52:54,485 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:53:01,782 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:53:01,784 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:53:04,486 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:53:14,487 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:53:24,487 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:53:34,488 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:53:44,490 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:53:54,490 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:54:01,783 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:54:01,785 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:54:04,491 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:54:14,491 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:54:24,493 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:54:34,493 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:54:44,494 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:54:54,495 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:55:01,784 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:55:01,786 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:55:04,498 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:55:14,498 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:55:24,499 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:55:34,500 - Got ping response for sessionid: 0x15fb025e2dc0014 after 7ms
+2017-11-19 22:55:44,500 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:55:54,501 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:56:01,785 -  [DUBBO] Send heartbeat to remote channel /192.168.31.105:20980, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:56:01,788 -  [DUBBO] Receive heartbeat response in thread New I/O worker #4, dubbo version: 2.5.3, current host: 192.168.31.105
+2017-11-19 22:56:04,502 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms
+2017-11-19 22:56:14,504 - Got ping response for sessionid: 0x15fb025e2dc0014 after 6ms

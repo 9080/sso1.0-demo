@@ -1,0 +1,604 @@
+2017-12-01 22:45:52,531 - SpringJUnit4ClassRunner constructor called with [class com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,548 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2017-12-01 22:45:52,556 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2017-12-01 22:45:52,590 - Instantiating TestContextBootstrapper for test class [com.helon.sso.service.test.TestJedisClient] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2017-12-01 22:45:52,711 - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@1466a6a declaringClass = 'com.helon.sso.service.test.TestJedisClient', classes = '{}', locations = '{classpath:spring/applicationContext-*.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2017-12-01 22:45:52,719 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,773 - @TestExecutionListeners is not present for class [com.helon.sso.service.test.TestJedisClient]: using defaults.
+2017-12-01 22:45:52,821 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-12-01 22:45:52,890 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1af7f3d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@729a55, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1b9a3ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1972b0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@f3afd9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3b36e0]
+2017-12-01 22:45:52,928 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,929 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,932 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,933 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,953 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,953 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,958 - Before test class: context [DefaultTestContext@183df68 testClass = TestJedisClient, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+2017-12-01 22:45:52,960 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,960 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:45:52,965 - Performing dependency injection for test context [[DefaultTestContext@183df68 testClass = TestJedisClient, testInstance = com.helon.sso.service.test.TestJedisClient@1b699ef, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+2017-12-01 22:45:52,966 - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2017-12-01 22:45:52,966 - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2017-12-01 22:45:53,288 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-12-01 22:45:53,293 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-12-01 22:45:53,293 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-12-01 22:45:53,402 - Looking for matching resources in directory tree [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring]
+2017-12-01 22:45:53,402 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-service/target/classes/spring/applicationContext-*.xml]
+2017-12-01 22:45:53,413 - Resolved location pattern [classpath:spring/applicationContext-*.xml] to resources [file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-dao.xml], file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-redis.xml], file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-service.xml], file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-tx.xml]]
+2017-12-01 22:45:53,415 - Loading XML bean definitions from file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-dao.xml]
+2017-12-01 22:45:53,476 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-12-01 22:45:53,703 - Loading schema mappings from [META-INF/spring.schemas]
+2017-12-01 22:45:53,797 - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/jms/spring-jms-2.5.xsd=org/springframework/jms/config/spring-jms-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jms/spring-jms-4.2.xsd=org/springframework/jms/config/spring-jms-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.2.xsd=org/springframework/jms/config/spring-jms-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jms/spring-jms-4.1.xsd=org/springframework/jms/config/spring-jms-4.1.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms.xsd=org/springframework/jms/config/spring-jms-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jms/spring-jms-3.1.xsd=org/springframework/jms/config/spring-jms-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms-4.0.xsd=org/springframework/jms/config/spring-jms-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/jms/spring-jms-3.0.xsd=org/springframework/jms/config/spring-jms-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+2017-12-01 22:45:53,799 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+2017-12-01 22:45:53,901 - Found XML schema [http://www.springframework.org/schema/context/spring-context-4.2.xsd] in classpath: org/springframework/context/config/spring-context-4.2.xsd
+2017-12-01 22:45:53,929 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.2.xsd
+2017-12-01 22:45:53,951 - Loading bean definitions
+2017-12-01 22:45:54,000 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/jms=org.springframework.jms.config.JmsNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2017-12-01 22:45:54,081 - Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2017-12-01 22:45:54,082 - Loading XML bean definitions from file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-redis.xml]
+2017-12-01 22:45:54,083 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-12-01 22:45:54,085 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+2017-12-01 22:45:54,103 - Loading bean definitions
+2017-12-01 22:45:54,121 - Loading XML bean definitions from file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-service.xml]
+2017-12-01 22:45:54,139 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-12-01 22:45:54,141 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+2017-12-01 22:45:54,156 - Found XML schema [http://www.springframework.org/schema/context/spring-context-4.2.xsd] in classpath: org/springframework/context/config/spring-context-4.2.xsd
+2017-12-01 22:45:54,161 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.2.xsd
+2017-12-01 22:45:54,166 - Found XML schema [http://code.alibabatech.com/schema/dubbo/dubbo.xsd] in classpath: META-INF/dubbo.xsd
+2017-12-01 22:45:54,209 - Loading bean definitions
+2017-12-01 22:45:54,244 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2017-12-01 22:45:54,313 - Looking for matching resources in directory tree [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\test-classes\com\helon\sso\service]
+2017-12-01 22:45:54,313 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\test-classes\com\helon\sso\service] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-service/target/test-classes/com/helon/sso/service/**/*.class]
+2017-12-01 22:45:54,314 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\test-classes\com\helon\sso\service\test] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-service/target/test-classes/com/helon/sso/service/**/*.class]
+2017-12-01 22:45:54,316 - Looking for matching resources in directory tree [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\com\helon\sso\service]
+2017-12-01 22:45:54,316 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\com\helon\sso\service] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-service/target/classes/com/helon/sso/service/**/*.class]
+2017-12-01 22:45:54,316 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\com\helon\sso\service\impl] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-service/target/classes/com/helon/sso/service/**/*.class]
+2017-12-01 22:45:54,317 - Looking for matching resources in directory tree [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-interface\target\classes\com\helon\sso\service]
+2017-12-01 22:45:54,317 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-interface\target\classes\com\helon\sso\service] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-interface/target/classes/com/helon/sso/service/**/*.class]
+2017-12-01 22:45:54,324 - Resolved location pattern [classpath*:com/helon/sso/service/**/*.class] to resources [file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\test-classes\com\helon\sso\service\test\TestJedis.class], file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\test-classes\com\helon\sso\service\test\TestJedisClient.class], file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\test-classes\com\helon\sso\service\test\TestUserService.class], file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\com\helon\sso\service\impl\UserServiceImpl.class], file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-interface\target\classes\com\helon\sso\service\UserService.class]]
+2017-12-01 22:45:54,460 - Identified candidate component class: file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\com\helon\sso\service\impl\UserServiceImpl.class]
+2017-12-01 22:45:54,553 - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2017-12-01 22:45:54,663 - Loading XML bean definitions from file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes\spring\applicationContext-tx.xml]
+2017-12-01 22:45:54,683 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2017-12-01 22:45:54,685 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+2017-12-01 22:45:54,702 - Found XML schema [http://www.springframework.org/schema/tx/spring-tx-4.2.xsd] in classpath: org/springframework/transaction/config/spring-tx-4.2.xsd
+2017-12-01 22:45:54,728 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.2.xsd
+2017-12-01 22:45:54,733 - Found XML schema [http://www.springframework.org/schema/aop/spring-aop-4.2.xsd] in classpath: org/springframework/aop/config/spring-aop-4.2.xsd
+2017-12-01 22:45:54,751 - Loading bean definitions
+2017-12-01 22:45:54,893 - Loaded 21 bean definitions from location pattern [classpath:spring/applicationContext-*.xml]
+2017-12-01 22:45:54,900 - Refreshing org.springframework.context.support.GenericApplicationContext@e82ae: startup date [Fri Dec 01 22:45:54 CST 2017]; root of context hierarchy
+2017-12-01 22:45:54,900 - Bean factory for org.springframework.context.support.GenericApplicationContext@e82ae: org.springframework.beans.factory.support.DefaultListableBeanFactory@13f69cc: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jedisPool,jedisClientPool,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,sso1.0-server,com.alibaba.dubbo.config.RegistryConfig,dubbo,com.helon.sso.service.UserService,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0]; root of factory hierarchy
+2017-12-01 22:45:55,176 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-12-01 22:45:55,176 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-12-01 22:45:55,229 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2017-12-01 22:45:55,238 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-12-01 22:45:55,353 - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-12-01 22:45:55,353 - Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-12-01 22:45:55,354 - Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2017-12-01 22:45:55,416 - Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-12-01 22:45:55,416 - Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-12-01 22:45:55,419 - Adding [systemProperties] PropertySource with lowest search precedence
+2017-12-01 22:45:55,420 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2017-12-01 22:45:55,420 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2017-12-01 22:45:55,444 - Looking for matching resources in directory tree [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\com\helon\sso\mapper]
+2017-12-01 22:45:55,444 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\com\helon\sso\mapper] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-dao/target/classes/com/helon/sso/mapper/**/*.class]
+2017-12-01 22:45:55,446 - Resolved location pattern [classpath*:com/helon/sso/mapper/**/*.class] to resources [file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\com\helon\sso\mapper\TUserinfoMapper.class]]
+2017-12-01 22:45:55,463 - Identified candidate component class: file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\com\helon\sso\mapper\TUserinfoMapper.class]
+2017-12-01 22:45:55,463 - Creating MapperFactoryBean with name 'TUserinfoMapper' and 'com.helon.sso.mapper.TUserinfoMapper' mapperInterface
+2017-12-01 22:45:55,465 - Enabling autowire by type for MapperFactoryBean with name 'TUserinfoMapper'.
+2017-12-01 22:45:55,466 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-12-01 22:45:55,466 - Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-12-01 22:45:55,467 - Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2017-12-01 22:45:55,484 - Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-12-01 22:45:55,485 - Adding [environmentProperties] PropertySource with lowest search precedence
+2017-12-01 22:45:55,485 - Loading properties file from class path resource [properties/db.properties]
+2017-12-01 22:45:55,486 - Adding [localProperties] PropertySource with lowest search precedence
+2017-12-01 22:45:55,490 - Searching for key 'jdbc.url' in [environmentProperties]
+2017-12-01 22:45:55,490 - Searching for key 'jdbc.url' in [systemProperties]
+2017-12-01 22:45:55,490 - Searching for key 'jdbc.url' in [systemEnvironment]
+2017-12-01 22:45:55,490 - Could not find key 'jdbc.url' in any property source. Returning [null]
+2017-12-01 22:45:55,491 - Searching for key 'jdbc.url' in [localProperties]
+2017-12-01 22:45:55,491 - Found key 'jdbc.url' in [localProperties] with type [String] and value 'jdbc:mysql://139.224.179.179:3306/sso1.0?characterEncoding=utf-8'
+2017-12-01 22:45:55,494 - Searching for key 'jdbc.username' in [environmentProperties]
+2017-12-01 22:45:55,494 - Searching for key 'jdbc.username' in [systemProperties]
+2017-12-01 22:45:55,494 - Searching for key 'jdbc.username' in [systemEnvironment]
+2017-12-01 22:45:55,495 - Could not find key 'jdbc.username' in any property source. Returning [null]
+2017-12-01 22:45:55,495 - Searching for key 'jdbc.username' in [localProperties]
+2017-12-01 22:45:55,495 - Found key 'jdbc.username' in [localProperties] with type [String] and value 'root'
+2017-12-01 22:45:55,495 - Searching for key 'jdbc.password' in [environmentProperties]
+2017-12-01 22:45:55,496 - Searching for key 'jdbc.password' in [systemProperties]
+2017-12-01 22:45:55,496 - Searching for key 'jdbc.password' in [systemEnvironment]
+2017-12-01 22:45:55,496 - Could not find key 'jdbc.password' in any property source. Returning [null]
+2017-12-01 22:45:55,496 - Searching for key 'jdbc.password' in [localProperties]
+2017-12-01 22:45:55,496 - Found key 'jdbc.password' in [localProperties] with type [String] and value '0310Helon'
+2017-12-01 22:45:55,497 - Searching for key 'jdbc.driver' in [environmentProperties]
+2017-12-01 22:45:55,497 - Searching for key 'jdbc.driver' in [systemProperties]
+2017-12-01 22:45:55,498 - Searching for key 'jdbc.driver' in [systemEnvironment]
+2017-12-01 22:45:55,498 - Could not find key 'jdbc.driver' in any property source. Returning [null]
+2017-12-01 22:45:55,498 - Searching for key 'jdbc.driver' in [localProperties]
+2017-12-01 22:45:55,498 - Found key 'jdbc.driver' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2017-12-01 22:45:55,498 - Searching for key 'jdbc.maxactive' in [environmentProperties]
+2017-12-01 22:45:55,499 - Searching for key 'jdbc.maxactive' in [systemProperties]
+2017-12-01 22:45:55,499 - Searching for key 'jdbc.maxactive' in [systemEnvironment]
+2017-12-01 22:45:55,499 - Could not find key 'jdbc.maxactive' in any property source. Returning [null]
+2017-12-01 22:45:55,499 - Searching for key 'jdbc.maxactive' in [localProperties]
+2017-12-01 22:45:55,499 - Found key 'jdbc.maxactive' in [localProperties] with type [String] and value '10'
+2017-12-01 22:45:55,500 - Searching for key 'jdbc.minidle' in [environmentProperties]
+2017-12-01 22:45:55,500 - Searching for key 'jdbc.minidle' in [systemProperties]
+2017-12-01 22:45:55,500 - Searching for key 'jdbc.minidle' in [systemEnvironment]
+2017-12-01 22:45:55,500 - Could not find key 'jdbc.minidle' in any property source. Returning [null]
+2017-12-01 22:45:55,500 - Searching for key 'jdbc.minidle' in [localProperties]
+2017-12-01 22:45:55,501 - Found key 'jdbc.minidle' in [localProperties] with type [String] and value '5'
+2017-12-01 22:45:55,517 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-12-01 22:45:55,517 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-12-01 22:45:55,519 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2017-12-01 22:45:55,519 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-12-01 22:45:55,519 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-12-01 22:45:55,519 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-12-01 22:45:55,520 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2017-12-01 22:45:55,521 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-12-01 22:45:55,521 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-12-01 22:45:55,521 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-12-01 22:45:55,541 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2017-12-01 22:45:55,541 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-12-01 22:45:55,541 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-12-01 22:45:55,541 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-12-01 22:45:55,542 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2017-12-01 22:45:55,542 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-12-01 22:45:55,542 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-12-01 22:45:55,542 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-12-01 22:45:55,542 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2017-12-01 22:45:55,542 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-12-01 22:45:55,543 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-12-01 22:45:55,543 - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-12-01 22:45:55,582 - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2017-12-01 22:45:55,618 - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-12-01 22:45:55,626 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1872d67]
+2017-12-01 22:45:55,630 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@550889]
+2017-12-01 22:45:55,632 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13f69cc: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jedisPool,jedisClientPool,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,sso1.0-server,com.alibaba.dubbo.config.RegistryConfig,dubbo,com.helon.sso.service.UserService,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,TUserinfoMapper]; root of factory hierarchy
+2017-12-01 22:45:55,632 - Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2017-12-01 22:45:55,633 - Creating shared instance of singleton bean 'dataSource'
+2017-12-01 22:45:55,633 - Creating instance of bean 'dataSource'
+2017-12-01 22:45:55,634 - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:55,634 - Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:55,636 - Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references
+2017-12-01 22:45:55,655 - Creating instance of bean '(inner bean)#7b159b'
+2017-12-01 22:45:55,757 - Finished creating instance of bean '(inner bean)#7b159b'
+2017-12-01 22:45:55,757 - Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:56,063 - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2017-12-01 22:45:56,179 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:56,179 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:57,061 - Finished creating instance of bean 'dataSource'
+2017-12-01 22:45:57,062 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2017-12-01 22:45:57,062 - Creating instance of bean 'sqlSessionFactory'
+2017-12-01 22:45:57,062 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:57,145 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-01 22:45:57,157 - Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2017-12-01 22:45:57,164 - Returning cached instance of singleton bean 'dataSource'
+2017-12-01 22:45:57,165 - Looking for matching resources in directory tree [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\mapper]
+2017-12-01 22:45:57,166 - Searching directory [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\mapper] for files matching pattern [D:/work/eclipse4.4_workspace_final_test/sso1.0-server/sso1.0-server-dao/target/classes/mapper/*Mapper.xml]
+2017-12-01 22:45:57,180 - Resolved location pattern [classpath*:/mapper/*Mapper.xml] to resources [file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\mapper\TUserinfoMapper.xml]]
+2017-12-01 22:45:57,215 - Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2017-12-01 22:45:57,448 - Parsed configuration file: 'class path resource [mybatis/MybatisConfig.xml]'
+2017-12-01 22:45:57,710 - Parsed mapper file: 'file [D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes\mapper\TUserinfoMapper.xml]'
+2017-12-01 22:45:57,713 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:57,713 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:57,717 - Finished creating instance of bean 'sqlSessionFactory'
+2017-12-01 22:45:57,719 - Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2017-12-01 22:45:57,719 - Creating shared instance of singleton bean 'jedisPool'
+2017-12-01 22:45:57,719 - Creating instance of bean 'jedisPool'
+2017-12-01 22:45:57,720 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,089 - Eagerly caching bean 'jedisPool' to allow for resolving potential circular references
+2017-12-01 22:45:58,096 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,096 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,102 - Finished creating instance of bean 'jedisPool'
+2017-12-01 22:45:58,102 - Creating shared instance of singleton bean 'jedisClientPool'
+2017-12-01 22:45:58,102 - Creating instance of bean 'jedisClientPool'
+2017-12-01 22:45:58,103 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,107 - Registered injected element on class [com.helon.sso.redis.service.impl.JedisClientPool]: AutowiredFieldElement for private redis.clients.jedis.JedisPool com.helon.sso.redis.service.impl.JedisClientPool.jedisPool
+2017-12-01 22:45:58,108 - Eagerly caching bean 'jedisClientPool' to allow for resolving potential circular references
+2017-12-01 22:45:58,112 - Processing injected element of bean 'jedisClientPool': AutowiredFieldElement for private redis.clients.jedis.JedisPool com.helon.sso.redis.service.impl.JedisClientPool.jedisPool
+2017-12-01 22:45:58,117 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,118 - Creating shared instance of singleton bean 'TUserinfoMapper'
+2017-12-01 22:45:58,119 - Creating instance of bean 'TUserinfoMapper'
+2017-12-01 22:45:58,120 - Eagerly caching bean 'TUserinfoMapper' to allow for resolving potential circular references
+2017-12-01 22:45:58,133 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,134 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,138 - Returning eagerly cached instance of singleton bean 'TUserinfoMapper' that is not fully initialized yet - a consequence of a circular reference
+2017-12-01 22:45:58,139 - Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-12-01 22:45:58,139 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,139 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,143 - Autowiring by type from bean name 'TUserinfoMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2017-12-01 22:45:58,167 - Invoking afterPropertiesSet() on bean with name 'TUserinfoMapper'
+2017-12-01 22:45:58,167 - Finished creating instance of bean 'TUserinfoMapper'
+2017-12-01 22:45:58,169 - Returning cached instance of singleton bean 'jedisPool'
+2017-12-01 22:45:58,169 - Autowiring by type from bean name 'jedisClientPool' to bean named 'jedisPool'
+2017-12-01 22:45:58,170 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,170 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,175 - Finished creating instance of bean 'jedisClientPool'
+2017-12-01 22:45:58,175 - Creating shared instance of singleton bean 'userServiceImpl'
+2017-12-01 22:45:58,176 - Creating instance of bean 'userServiceImpl'
+2017-12-01 22:45:58,176 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,182 - Registered injected element on class [com.helon.sso.service.impl.UserServiceImpl]: ResourceElement for private com.helon.sso.mapper.TUserinfoMapper com.helon.sso.service.impl.UserServiceImpl.userinfoMapper
+2017-12-01 22:45:58,182 - Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+2017-12-01 22:45:58,188 - Processing injected element of bean 'userServiceImpl': ResourceElement for private com.helon.sso.mapper.TUserinfoMapper com.helon.sso.service.impl.UserServiceImpl.userinfoMapper
+2017-12-01 22:45:58,189 - Returning cached instance of singleton bean 'TUserinfoMapper'
+2017-12-01 22:45:58,193 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,194 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,200 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,201 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,227 - Creating shared instance of singleton bean 'txAdvice'
+2017-12-01 22:45:58,228 - Creating instance of bean 'txAdvice'
+2017-12-01 22:45:58,239 - Eagerly caching bean 'txAdvice' to allow for resolving potential circular references
+2017-12-01 22:45:58,246 - Creating shared instance of singleton bean 'transactionManager'
+2017-12-01 22:45:58,246 - Creating instance of bean 'transactionManager'
+2017-12-01 22:45:58,247 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,255 - Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2017-12-01 22:45:58,263 - Returning cached instance of singleton bean 'dataSource'
+2017-12-01 22:45:58,263 - Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2017-12-01 22:45:58,263 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,264 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,269 - Finished creating instance of bean 'transactionManager'
+2017-12-01 22:45:58,269 - Creating instance of bean '(inner bean)#7bbe1a'
+2017-12-01 22:45:58,269 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,277 - Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2017-12-01 22:45:58,277 - Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2017-12-01 22:45:58,277 - Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2017-12-01 22:45:58,277 - Adding transactional method [create*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2017-12-01 22:45:58,278 - Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2017-12-01 22:45:58,278 - Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2017-12-01 22:45:58,278 - Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2017-12-01 22:45:58,278 - Adding transactional method [select*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2017-12-01 22:45:58,282 - Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2017-12-01 22:45:58,283 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,283 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,287 - Finished creating instance of bean '(inner bean)#7bbe1a'
+2017-12-01 22:45:58,288 - Invoking afterPropertiesSet() on bean with name 'txAdvice'
+2017-12-01 22:45:58,288 - Finished creating instance of bean 'txAdvice'
+2017-12-01 22:45:58,348 - Creating implicit proxy for bean 'userServiceImpl' with 0 common interceptors and 2 specific interceptors
+2017-12-01 22:45:58,350 - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.helon.sso.service.impl.UserServiceImpl@10feffc]
+2017-12-01 22:45:58,355 - Finished creating instance of bean 'userServiceImpl'
+2017-12-01 22:45:58,355 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2017-12-01 22:45:58,356 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2017-12-01 22:45:58,356 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2017-12-01 22:45:58,356 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2017-12-01 22:45:58,357 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2017-12-01 22:45:58,357 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2017-12-01 22:45:58,358 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,360 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2017-12-01 22:45:58,364 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,365 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,366 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2017-12-01 22:45:58,366 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-12-01 22:45:58,366 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-12-01 22:45:58,367 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,367 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2017-12-01 22:45:58,374 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,374 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,376 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-12-01 22:45:58,376 - Creating shared instance of singleton bean 'sso1.0-server'
+2017-12-01 22:45:58,377 - Creating instance of bean 'sso1.0-server'
+2017-12-01 22:45:58,377 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,380 - Eagerly caching bean 'sso1.0-server' to allow for resolving potential circular references
+2017-12-01 22:45:58,396 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,397 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,400 - Finished creating instance of bean 'sso1.0-server'
+2017-12-01 22:45:58,400 - Creating shared instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-12-01 22:45:58,400 - Creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-12-01 22:45:58,401 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,403 - Eagerly caching bean 'com.alibaba.dubbo.config.RegistryConfig' to allow for resolving potential circular references
+2017-12-01 22:45:58,418 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,418 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,422 - Finished creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-12-01 22:45:58,423 - Creating shared instance of singleton bean 'dubbo'
+2017-12-01 22:45:58,423 - Creating instance of bean 'dubbo'
+2017-12-01 22:45:58,423 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,427 - Eagerly caching bean 'dubbo' to allow for resolving potential circular references
+2017-12-01 22:45:58,450 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,450 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,457 - Finished creating instance of bean 'dubbo'
+2017-12-01 22:45:58,458 - Creating shared instance of singleton bean 'com.helon.sso.service.UserService'
+2017-12-01 22:45:58,458 - Creating instance of bean 'com.helon.sso.service.UserService'
+2017-12-01 22:45:58,458 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:58,652 -  [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Protocol$Adpative implements com.alibaba.dubbo.rpc.Protocol {
+public void destroy() {throw new UnsupportedOperationException("method public abstract void com.alibaba.dubbo.rpc.Protocol.destroy() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public int getDefaultPort() {throw new UnsupportedOperationException("method public abstract int com.alibaba.dubbo.rpc.Protocol.getDefaultPort() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public com.alibaba.dubbo.rpc.Invoker refer(java.lang.Class arg0, com.alibaba.dubbo.common.URL arg1) throws java.lang.Class {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.refer(arg0, arg1);
+}
+public com.alibaba.dubbo.rpc.Exporter export(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.export(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,003 -  [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ProxyFactory$Adpative implements com.alibaba.dubbo.rpc.ProxyFactory {
+public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getProxy(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, com.alibaba.dubbo.common.URL arg2) throws java.lang.Object {
+if (arg2 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg2;
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getInvoker(arg0, arg1, arg2);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,026 - Eagerly caching bean 'com.helon.sso.service.UserService' to allow for resolving potential circular references
+2017-12-01 22:45:59,067 - Returning cached instance of singleton bean 'userServiceImpl'
+2017-12-01 22:45:59,072 - Invoking afterPropertiesSet() on bean with name 'com.helon.sso.service.UserService'
+2017-12-01 22:45:59,073 - Returning cached instance of singleton bean 'sso1.0-server'
+2017-12-01 22:45:59,074 - Returning cached instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+2017-12-01 22:45:59,074 - Returning cached instance of singleton bean 'dubbo'
+2017-12-01 22:45:59,075 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:59,075 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:59,093 - Finished creating instance of bean 'com.helon.sso.service.UserService'
+2017-12-01 22:45:59,093 - Returning cached instance of singleton bean 'transactionManager'
+2017-12-01 22:45:59,094 - Returning cached instance of singleton bean 'txAdvice'
+2017-12-01 22:45:59,094 - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2017-12-01 22:45:59,094 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:45:59,094 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2017-12-01 22:45:59,094 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2017-12-01 22:45:59,094 - Returning cached instance of singleton bean 'TUserinfoMapper'
+2017-12-01 22:45:59,094 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2017-12-01 22:45:59,279 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@f2144]
+2017-12-01 22:45:59,280 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-12-01 22:45:59,286 - Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-12-01 22:45:59,286 - Returning cached instance of singleton bean 'com.helon.sso.service.UserService'
+2017-12-01 22:45:59,288 -  [DUBBO] The service ready on spring started. service: com.helon.sso.service.UserService, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,777 -  [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adpative implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("cache", "lru");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(" + url.toString() + ") use keys([cache])");
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,822 -  [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adpative implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,845 -  [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adpative implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("validation", "jvalidation");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(" + url.toString() + ") use keys([validation])");
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,910 -  [DUBBO] Export dubbo service com.helon.sso.service.UserService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,911 -  [DUBBO] Export dubbo service com.helon.sso.service.UserService to url dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,911 -  [DUBBO] Register dubbo service com.helon.sso.service.UserService url dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642 to registry registry://47.93.195.131:2181/com.alibaba.dubbo.registry.RegistryService?application=sso1.0-server&dubbo=2.5.3&pid=8480&registry=zookeeper&timestamp=1512139559476, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,937 -  [DUBBO] package com.alibaba.dubbo.registry;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RegistryFactory$Adpative implements com.alibaba.dubbo.registry.RegistryFactory {
+public com.alibaba.dubbo.registry.Registry getRegistry(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.registry.RegistryFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.registry.RegistryFactory extension = (com.alibaba.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.registry.RegistryFactory.class).getExtension(extName);
+return extension.getRegistry(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:45:59,965 -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Cluster$Adpative implements com.alibaba.dubbo.rpc.cluster.Cluster {
+public com.alibaba.dubbo.rpc.Invoker join(com.alibaba.dubbo.rpc.cluster.Directory arg0) throws com.alibaba.dubbo.rpc.cluster.Directory {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("cluster", "failover");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.Cluster) name from url(" + url.toString() + ") use keys([cluster])");
+com.alibaba.dubbo.rpc.cluster.Cluster extension = (com.alibaba.dubbo.rpc.cluster.Cluster)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.Cluster.class).getExtension(extName);
+return extension.join(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,028 -  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adpative implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([server, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,102 -  [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adpative implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,130 -  [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adpative implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("threadpool", "fixed");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(" + url.toString() + ") use keys([threadpool])");
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,304 -  [DUBBO] Using select timeout of 500, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,305 -  [DUBBO] Epoll-bug workaround enabled = false, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,552 -  [DUBBO] Start NettyServer bind /0.0.0.0:20980, export /192.168.31.105:20980, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,579 -  [DUBBO] package com.alibaba.dubbo.remoting.zookeeper;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ZookeeperTransporter$Adpative implements com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter {
+public com.alibaba.dubbo.remoting.zookeeper.ZookeeperClient connect(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "zkclient"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter extension = (com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter.class).getExtension(extName);
+return extension.connect(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,687 -  [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-47.93.195.131.cache, data: {com.helon.sso.service.UserService=empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=configurators&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=125332&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511688429607 empty://192.168.31.105/com.helon.sso.service.UserService?application=sso1.0-server&category=routers&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=125332&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1511688429607 dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=120900&retries=0&side=provider&timeout=30000&timestamp=1511688388036}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,757 - Creating new ZookKeeper instance to connect to 47.93.195.131:2181.
+2017-12-01 22:46:00,757 - Starting ZkClient event thread.
+2017-12-01 22:46:00,796 - Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+2017-12-01 22:46:00,796 - Client environment:host.name=USER-20150622LD
+2017-12-01 22:46:00,796 - Client environment:java.version=1.8.0_40-ea
+2017-12-01 22:46:00,796 - Client environment:java.vendor=Oracle Corporation
+2017-12-01 22:46:00,797 - Client environment:java.home=C:\jdk1.8.0_40\jre
+2017-12-01 22:46:00,797 - Client environment:java.class.path=D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\test-classes;D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service\target\classes;D:\work\apache-tomcat-8.0.32-04\lib\annotations-api.jar;D:\work\apache-tomcat-8.0.32-04\lib\catalina-ant.jar;D:\work\apache-tomcat-8.0.32-04\lib\catalina-ha.jar;D:\work\apache-tomcat-8.0.32-04\lib\catalina-storeconfig.jar;D:\work\apache-tomcat-8.0.32-04\lib\catalina-tribes.jar;D:\work\apache-tomcat-8.0.32-04\lib\catalina.jar;D:\work\apache-tomcat-8.0.32-04\lib\ecj-4.4.2.jar;D:\work\apache-tomcat-8.0.32-04\lib\el-api.jar;D:\work\apache-tomcat-8.0.32-04\lib\jasper-el.jar;D:\work\apache-tomcat-8.0.32-04\lib\jasper.jar;D:\work\apache-tomcat-8.0.32-04\lib\jsp-api.jar;D:\work\apache-tomcat-8.0.32-04\lib\servlet-api.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-api.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-coyote.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-dbcp.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-i18n-es.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-i18n-fr.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-i18n-ja.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-jdbc.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-jni.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-util-scan.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-util.jar;D:\work\apache-tomcat-8.0.32-04\lib\tomcat-websocket.jar;D:\work\apache-tomcat-8.0.32-04\lib\websocket-api.jar;D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-dao\target\classes;D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-pojo\target\classes;F:\maven-repository\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;F:\maven-repository\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;F:\maven-repository\com\github\miemiedev\mybatis-paginator\1.2.15\mybatis-paginator-1.2.15.jar;F:\maven-repository\com\github\pagehelper\pagehelper\5.1.2\pagehelper-5.1.2.jar;F:\maven-repository\com\github\jsqlparser\jsqlparser\1.0\jsqlparser-1.0.jar;F:\maven-repository\mysql\mysql-connector-java\5.1.32\mysql-connector-java-5.1.32.jar;F:\maven-repository\com\alibaba\druid\1.0.9\druid-1.0.9.jar;C:\jdk1.8.0_40\lib\jconsole.jar;C:\jdk1.8.0_40\lib\tools.jar;D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-interface\target\classes;F:\maven-repository\org\springframework\spring-context\4.2.4.RELEASE\spring-context-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-aop\4.2.4.RELEASE\spring-aop-4.2.4.RELEASE.jar;F:\maven-repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;F:\maven-repository\org\springframework\spring-core\4.2.4.RELEASE\spring-core-4.2.4.RELEASE.jar;F:\maven-repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\maven-repository\org\springframework\spring-expression\4.2.4.RELEASE\spring-expression-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-beans\4.2.4.RELEASE\spring-beans-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-webmvc\4.2.4.RELEASE\spring-webmvc-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-web\4.2.4.RELEASE\spring-web-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-jdbc\4.2.4.RELEASE\spring-jdbc-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-tx\4.2.4.RELEASE\spring-tx-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-aspects\4.2.4.RELEASE\spring-aspects-4.2.4.RELEASE.jar;F:\maven-repository\org\aspectj\aspectjweaver\1.8.7\aspectjweaver-1.8.7.jar;F:\maven-repository\org\springframework\spring-jms\4.2.4.RELEASE\spring-jms-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-messaging\4.2.4.RELEASE\spring-messaging-4.2.4.RELEASE.jar;F:\maven-repository\org\springframework\spring-context-support\4.2.4.RELEASE\spring-context-support-4.2.4.RELEASE.jar;F:\maven-repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;F:\maven-repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;F:\maven-repository\org\apache\zookeeper\zookeeper\3.4.7\zookeeper-3.4.7.jar;F:\maven-repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;F:\maven-repository\jline\jline\0.9.94\jline-0.9.94.jar;F:\maven-repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;F:\maven-repository\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;F:\maven-repository\org\slf4j\slf4j-log4j12\1.6.4\slf4j-log4j12-1.6.4.jar;F:\maven-repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;F:\maven-repository\junit\junit\4.12\junit-4.12.jar;F:\maven-repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;F:\maven-repository\org\springframework\spring-test\4.2.4.RELEASE\spring-test-4.2.4.RELEASE.jar;F:\maven-repository\redis\clients\jedis\2.7.2\jedis-2.7.2.jar;F:\maven-repository\org\apache\commons\commons-pool2\2.3\commons-pool2-2.3.jar;F:\maven-repository\com\alibaba\fastjson\1.2.39\fastjson-1.2.39.jar;D:\work\eclipse4.4_workspace_final_test\sso1.0-common\target\classes;F:\maven-repository\joda-time\joda-time\2.5\joda-time-2.5.jar;F:\maven-repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;F:\maven-repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;F:\maven-repository\commons-net\commons-net\3.3\commons-net-3.3.jar;F:\maven-repository\com\fasterxml\jackson\core\jackson-databind\2.4.2\jackson-databind-2.4.2.jar;F:\maven-repository\com\fasterxml\jackson\core\jackson-annotations\2.4.0\jackson-annotations-2.4.0.jar;F:\maven-repository\com\fasterxml\jackson\core\jackson-core\2.4.2\jackson-core-2.4.2.jar;F:\maven-repository\org\apache\httpcomponents\httpclient\4.3.5\httpclient-4.3.5.jar;F:\maven-repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;F:\maven-repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;F:\maven-repository\org\quartz-scheduler\quartz\2.2.2\quartz-2.2.2.jar;F:\maven-repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;/D:/work/eclipse-jee4.4-final/configuration/org.eclipse.osgi/362/0/.cp/;/D:/work/eclipse-jee4.4-final/configuration/org.eclipse.osgi/361/0/.cp/
+2017-12-01 22:46:00,797 - Client environment:java.library.path=C:\jdk1.8.0_40\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/jdk1.8.0_40/bin/../jre/bin/client;C:/jdk1.8.0_40/bin/../jre/bin;C:/jdk1.8.0_40/bin/../jre/lib/i386;D:\work\oracle11g_client32;D:\app\Administrator\product\11.2.0\client_1;C:\jdk1.8.0_40\bin;C:\jdk1.8.0_40\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\work\mysql5.6.24win32\bin;D:\software install\TortoiseSVN\bin;D:\work\apache-maven-3.3.9\bin;D:\work\play-1.2.7;D:\software install\Git\cmd;D:\software install\nodejs\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;D:\work\eclipse-jee4.4-final;;.
+2017-12-01 22:46:00,797 - Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2017-12-01 22:46:00,797 - Client environment:java.compiler=<NA>
+2017-12-01 22:46:00,797 - Client environment:os.name=Windows 8.1
+2017-12-01 22:46:00,797 - Client environment:os.arch=x86
+2017-12-01 22:46:00,797 - Client environment:os.version=6.3
+2017-12-01 22:46:00,797 - Client environment:user.name=Administrator
+2017-12-01 22:46:00,797 - Client environment:user.home=C:\Users\Administrator
+2017-12-01 22:46:00,798 - Client environment:user.dir=D:\work\eclipse4.4_workspace_final_test\sso1.0-server\sso1.0-server-service
+2017-12-01 22:46:00,799 - Initiating client connection, connectString=47.93.195.131:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1bcfe81
+2017-12-01 22:46:00,804 - zookeeper.disableAutoWatchReset is false
+2017-12-01 22:46:00,856 - Awaiting connection to Zookeeper server
+2017-12-01 22:46:00,857 - Waiting for keeper state SyncConnected
+2017-12-01 22:46:00,887 - Opening socket connection to server 47.93.195.131/47.93.195.131:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-12-01 22:46:00,896 - Socket connection established to 47.93.195.131/47.93.195.131:2181, initiating session
+2017-12-01 22:46:00,899 - Session establishment request sent on 47.93.195.131/47.93.195.131:2181
+2017-12-01 22:46:00,913 - Session establishment complete on server 47.93.195.131/47.93.195.131:2181, sessionid = 0x15fb025e2dc0017, negotiated timeout = 30000
+2017-12-01 22:46:00,917 - Received event: WatchedEvent state:SyncConnected type:None path:null
+2017-12-01 22:46:00,917 - zookeeper state changed (SyncConnected)
+2017-12-01 22:46:00,918 - Leaving process event
+2017-12-01 22:46:00,918 - State is SyncConnected
+2017-12-01 22:46:00,920 -  [DUBBO] Register: dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:00,942 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,271,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-12-01 22:46:00,969 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,272,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-12-01 22:46:00,977 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,273,-110  request:: '/dubbo/com.helon.sso.service.UserService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-12-01 22:46:00,985 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,274,0  request:: '/dubbo/com.helon.sso.service.UserService/providers/dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D8480%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1512139559642,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/com.helon.sso.service.UserService/providers/dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D8480%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1512139559642 
+2017-12-01 22:46:00,987 -  [DUBBO] Subscribe: provider://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&category=configurators&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,018 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,275,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-12-01 22:46:01,028 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,276,-110  request:: '/dubbo/com.helon.sso.service.UserService,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-12-01 22:46:01,039 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,277,-110  request:: '/dubbo/com.helon.sso.service.UserService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+2017-12-01 22:46:01,054 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,277,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: s{8,8,1510495430421,1510495430421,0,0,0,0,0,0,8} 
+2017-12-01 22:46:01,066 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 9,8  replyHeader:: 9,277,0  request:: '/dubbo/com.helon.sso.service.UserService/configurators,T  response:: v{} 
+2017-12-01 22:46:01,067 -  [DUBBO] Notify urls for subscribe url provider://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&category=configurators&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, urls: [empty://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&category=configurators&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642], dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,120 -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RouterFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.RouterFactory {
+public com.alibaba.dubbo.rpc.cluster.Router getRouter(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.RouterFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.RouterFactory extension = (com.alibaba.dubbo.rpc.cluster.RouterFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.RouterFactory.class).getExtension(extName);
+return extension.getRouter(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,141 -  [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ConfiguratorFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory {
+public com.alibaba.dubbo.rpc.cluster.Configurator getConfigurator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory extension = (com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory.class).getExtension(extName);
+return extension.getConfigurator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,169 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2017-12-01 22:46:01,169 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2017-12-01 22:46:01,169 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2017-12-01 22:46:01,195 - Storing ApplicationContext in cache under key [[MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2017-12-01 22:46:01,195 - Spring test ApplicationContext cache statistics: [DefaultContextCache@671e20 size = 1, parentContextCount = 0, hitCount = 0, missCount = 1]
+2017-12-01 22:46:01,201 - Processing injected element of bean 'com.helon.sso.service.test.TestJedisClient': AutowiredFieldElement for com.helon.sso.redis.service.JedisClient com.helon.sso.service.test.TestJedisClient.jedisClient
+2017-12-01 22:46:01,201 - Returning cached instance of singleton bean 'jedisClientPool'
+2017-12-01 22:46:01,202 - Autowiring by type from bean name 'com.helon.sso.service.test.TestJedisClient' to bean named 'jedisClientPool'
+2017-12-01 22:46:01,202 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:46:01,202 - Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2017-12-01 22:46:01,210 - Before test method: context [DefaultTestContext@183df68 testClass = TestJedisClient, testInstance = com.helon.sso.service.test.TestJedisClient@1b699ef, testMethod = testJedisClient@TestJedisClient, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2017-12-01 22:46:01,299 - After test method: context [DefaultTestContext@183df68 testClass = TestJedisClient, testInstance = com.helon.sso.service.test.TestJedisClient@1b699ef, testMethod = testJedisClient@TestJedisClient, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2017-12-01 22:46:01,300 - After test class: context [DefaultTestContext@183df68 testClass = TestJedisClient, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@f0e0ba testClass = TestJedisClient, locations = '{classpath:spring/applicationContext-*.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+2017-12-01 22:46:01,306 - Closing org.springframework.context.support.GenericApplicationContext@e82ae: startup date [Fri Dec 01 22:45:54 CST 2017]; root of context hierarchy
+2017-12-01 22:46:01,312 - Returning cached instance of singleton bean 'sqlSessionFactory'
+2017-12-01 22:46:01,305 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,312 - Returning cached instance of singleton bean 'com.helon.sso.service.UserService'
+2017-12-01 22:46:01,313 -  [DUBBO] Close all registries [zookeeper://47.93.195.131:2181/com.alibaba.dubbo.registry.RegistryService?application=sso1.0-server&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&pid=8480&timestamp=1512139559476], dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,313 -  [DUBBO] Destroy registry:zookeeper://47.93.195.131:2181/com.alibaba.dubbo.registry.RegistryService?application=sso1.0-server&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&pid=8480&timestamp=1512139559476, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,313 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2017-12-01 22:46:01,314 -  [DUBBO] Unregister: dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,314 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@13f69cc: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,jedisPool,jedisClientPool,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,sso1.0-server,com.alibaba.dubbo.config.RegistryConfig,dubbo,com.helon.sso.service.UserService,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,TUserinfoMapper]; root of factory hierarchy
+2017-12-01 22:46:01,314 - Invoking destroy() on bean with name 'com.helon.sso.service.UserService'
+2017-12-01 22:46:01,314 -  [DUBBO] Unregister: dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,330 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 10,2  replyHeader:: 10,278,0  request:: '/dubbo/com.helon.sso.service.UserService/providers/dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D8480%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1512139559642,-1  response:: null
+2017-12-01 22:46:01,331 -  [DUBBO] Destroy unregister url dubbo://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,331 -  [DUBBO] Unsubscribe: provider://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&category=configurators&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,331 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 11,2  replyHeader:: 11,279,-101  request:: '/dubbo/com.helon.sso.service.UserService/providers/dubbo%253A%252F%252F192.168.31.105%253A20980%252Fcom.helon.sso.service.UserService%253Fanyhost%253Dtrue%2526application%253Dsso1.0-server%2526dubbo%253D2.5.3%2526interface%253Dcom.helon.sso.service.UserService%2526methods%253DgetUserById%2526pid%253D8480%2526retries%253D0%2526side%253Dprovider%2526timeout%253D30000%2526timestamp%253D1512139559642,-1  response:: null
+2017-12-01 22:46:01,331 -  [DUBBO] Destroy unsubscribe url provider://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&category=configurators&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,332 - Closing ZkClient...
+2017-12-01 22:46:01,336 - Terminate ZkClient event thread.
+2017-12-01 22:46:01,336 -  [DUBBO] Unsubscribe: provider://192.168.31.105:20980/com.helon.sso.service.UserService?anyhost=true&application=sso1.0-server&category=configurators&check=false&dubbo=2.5.3&interface=com.helon.sso.service.UserService&methods=getUserById&pid=8480&retries=0&side=provider&timeout=30000&timestamp=1512139559642, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,337 - Closing ZooKeeper connected to 47.93.195.131:2181
+2017-12-01 22:46:01,338 - Closing session: 0x15fb025e2dc0017
+2017-12-01 22:46:01,338 - Closing client for session: 0x15fb025e2dc0017
+2017-12-01 22:46:01,338 - Retrieved dependent beans for bean '(inner bean)#7bbe1a': [txAdvice]
+2017-12-01 22:46:01,339 - Retrieved dependent beans for bean 'jedisClientPool': [com.helon.sso.service.test.TestJedisClient]
+2017-12-01 22:46:01,340 - Invoking destroy method 'close' on bean with name 'jedisPool'
+2017-12-01 22:46:01,346 - Reading reply sessionid:0x15fb025e2dc0017, packet:: clientPath:null serverPath:null finished:false header:: 12,-11  replyHeader:: 12,280,0  request:: null response:: null
+2017-12-01 22:46:01,347 - Disconnecting client for session: 0x15fb025e2dc0017
+2017-12-01 22:46:01,347 - An exception was thrown while closing send thread for session 0x15fb025e2dc0017 : Unable to read additional data from server sessionid 0x15fb025e2dc0017, likely server has closed socket
+2017-12-01 22:46:01,347 - Session: 0x15fb025e2dc0017 closed
+2017-12-01 22:46:01,348 - Closing ZkClient...done
+2017-12-01 22:46:01,348 -  [DUBBO] Close dubbo server: /192.168.31.105:20980, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,349 -  [DUBBO] Close NettyServer bind /0.0.0.0:20980, export /192.168.31.105:20980, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-01 22:46:01,352 - EventThread shut down for session: 0x15fb025e2dc0017
+2017-12-01 22:46:01,366 - Invoking destroy method 'close' on bean with name 'dataSource'
+2017-12-01 22:46:01,367 - Retrieved dependent beans for bean '(inner bean)#7b159b': [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0]
