@@ -2,87 +2,73 @@ package com.helon.sso.pojo;
 
 import java.io.Serializable;
 
+/**
+ * 
+ * CreateDate:2017年12月22日下午1:50:07 
+ * @Description: 用户信息bean  
+ * @author:Helon
+ * @version V1.0
+ */
 public class TUserinfo implements Serializable {
-    /**
-     * 主键
-     */
-    private Long id;
+	private Long id;
+	private String accountNo;
+	private String password;
+	private String userName;
+	private Boolean sex;
+	private static final long serialVersionUID = 1L;
 
-    /**
-     * 账号
-     */
-    private String accountNo;
+	public Long getId() {
+		return this.id;
+	}
 
-    /**
-     * 密码
-     */
-    private String password;
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    /**
-     * 用户名
-     */
-    private String userName;
+	public String getAccountNo() {
+		return this.accountNo;
+	}
 
-    /**
-     * 性别
-     */
-    private Boolean sex;
+	public void setAccountNo(String accountNo) {
+		this.accountNo = (accountNo == null ? null : accountNo.trim());
+	}
 
-    private static final long serialVersionUID = 1L;
+	public String getPassword() {
+		return this.password;
+	}
 
-    public Long getId() {
-        return id;
-    }
+	public void setPassword(String password) {
+		this.password = (password == null ? null : password.trim());
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public String getUserName() {
+		return this.userName;
+	}
 
-    public String getAccountNo() {
-        return accountNo;
-    }
+	public void setUserName(String userName) {
+		this.userName = (userName == null ? null : userName.trim());
+	}
 
-    public void setAccountNo(String accountNo) {
-        this.accountNo = accountNo == null ? null : accountNo.trim();
-    }
+	public Boolean getSex() {
+		return this.sex;
+	}
 
-    public String getPassword() {
-        return password;
-    }
+	public void setSex(Boolean sex) {
+		this.sex = sex;
+	}
 
-    public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName == null ? null : userName.trim();
-    }
-
-    public Boolean getSex() {
-        return sex;
-    }
-
-    public void setSex(Boolean sex) {
-        this.sex = sex;
-    }
-
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", accountNo=").append(accountNo);
-        sb.append(", password=").append(password);
-        sb.append(", userName=").append(userName);
-        sb.append(", sex=").append(sex);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
-        return sb.toString();
-    }
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(getClass().getSimpleName());
+		sb.append(" [");
+		sb.append("Hash = ").append(hashCode());
+		sb.append(", id=").append(this.id);
+		sb.append(", accountNo=").append(this.accountNo);
+		sb.append(", password=").append(this.password);
+		sb.append(", userName=").append(this.userName);
+		sb.append(", sex=").append(this.sex);
+		sb.append(", serialVersionUID=").append(1L);
+		sb.append("]");
+		return sb.toString();
+	}
 }
