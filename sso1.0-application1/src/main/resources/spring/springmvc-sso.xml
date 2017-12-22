@@ -10,7 +10,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
    
     <!-- sso过滤器让spring容器管理 -->
-    <bean id="validateLoginFilter" class="com.helon.application1.filter.Client2ValidateFilter" init-method="init"></bean>
+    <bean id="validateLoginFilter" class="com.helon.application1.filter.Client1ValidateFilter" init-method="init"></bean>
     <!-- sso回写cookie的filter -->
     <bean id="ssoMiddleFilter" class="com.helon.sso.client.filters.SsoMiddleFilter"></bean>
     <!-- sso登出处理器 -->

@@ -22,6 +22,6 @@ public class ProductController {
 	@ResponseBody
 	public SsoResult<Object> queryProduct(HttpSession session){
 		TUserinfo userInfo = (TUserinfo)session.getAttribute("USER_SESSION");
-		return SsoResult.Success("application2:"+userInfo.getAccountNo());
+		return SsoResult.Success("application1:"+userInfo.getAccountNo());
 	}
 }

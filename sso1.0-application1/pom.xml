@@ -115,7 +115,7 @@
 				<version>2.2</version>
 				<configuration>
 					<path>/</path>
-					<port>8061</port>
+					<port>8071</port>
 				</configuration>
 			</plugin>
 		</plugins>

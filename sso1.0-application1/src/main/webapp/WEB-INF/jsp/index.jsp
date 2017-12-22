@@ -27,7 +27,7 @@
 			},
 			clientUser : function(){
 				$.ajax({
-					url:"http://www.client2.com/product/queryProduct.action",
+					url:"http://www.client1.com/product/queryProduct.action",
 					dataType:"json",
 					type:"post",
 					success:function(data){
@@ -54,7 +54,7 @@
 </head>
 <body>
 	<h1>${errorMsg}</h1>
-	<h1>application2</h1>
+	<h1>application1</h1>
 	<h1><a href="/ssoLoginHandler">登录</a></h1>
 	<h1><a href="/ssoLogoutHandler">退出</a></h1>
 	<li id="welcome"></li>

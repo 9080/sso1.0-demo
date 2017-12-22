@@ -14,7 +14,7 @@ import com.helon.sso.service.UserService;
  * @author:Helon
  * @version V1.0   
  */
-public class Client2ValidateFilter extends ValidateLoginFilter {
+public class Client1ValidateFilter extends ValidateLoginFilter {
 	@Autowired
 	private UserService userServer;
 	
