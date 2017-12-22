@@ -19,7 +19,6 @@
 		<module>sso1.0-server-dao</module>
 		<module>sso1.0-server-pojo</module>
 		<module>sso1.0-server-interface</module>
-		<module>sso1.0-server-service</module>
 	</modules>
 	<build>
 		<plugins>

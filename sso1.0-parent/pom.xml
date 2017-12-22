@@ -274,4 +274,7 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<modules>
+		<module>sso1.0-server-service</module>
+	</modules>
 </project>

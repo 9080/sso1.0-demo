@@ -92,6 +92,8 @@ public class UserController {
 		}else{
 			model.addAttribute("errorMsg", ssoResult.getMsg());
 		}
+		//TODO异步记录登录用户轨迹(比如：删除、登录、登出、修改、操作时间、用户ip、地址、浏览器User-Agent信息等)
+		
 		return redirectUrl;
 	}
 	
