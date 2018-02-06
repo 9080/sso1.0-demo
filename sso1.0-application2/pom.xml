@@ -6,7 +6,7 @@
 		<artifactId>sso1.0-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>sso1.0-application1</artifactId>
+	<artifactId>sso1.0-application2</artifactId>
 	<packaging>war</packaging>
 	<dependencies>
 		<dependency>
